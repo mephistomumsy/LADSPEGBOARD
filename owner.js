@@ -2,710 +2,710 @@
 const owners = [
   {
     name: "mephistomum",
-    ownerImg: "assets/image/owner/mephistomum.png",
-    pegboardImg: "assets/image/pegboard/mephistomum.png",
+    ownerImg: "assets/image/owner/mephistomum.webp",
+    pegboardImg: "assets/image/pegboard/mephistomum.webp",
     track: "https://open.spotify.com/embed/track/48jRAABr5TxjWHvoNWClGG?utm_source=generator",
     headphonePos: { bottom: "0vw", right: "3.5vw" },
     photostrips: [
-      { img: "assets/image/photostrip/mephistomum1.png", pos: { bottom: "2vw", left: "8vw" } },
-      { img: "assets/image/photostrip/mephistomum2.png", pos: { bottom: "7vw", left: "12vw" } }
+      { img: "assets/image/photostrip/mephistomum1.webp", pos: { bottom: "2vw", left: "8vw" } },
+      { img: "assets/image/photostrip/mephistomum2.webp", pos: { bottom: "7vw", left: "12vw" } }
     ],
-    photoframe: "assets/image/photoframe/mephistomum.jpg",
+    photoframe: "assets/image/photoframe/mephistomum.webp",
     photoframePos: { bottom: "3vw", right: "22vw" }
   },
   {
     name: "snowfllay",
-    ownerImg: "assets/image/owner/snowfllay.png",
-    pegboardImg: "assets/image/pegboard/snowfllay.png",
+    ownerImg: "assets/image/owner/snowfllay.webp",
+    pegboardImg: "assets/image/pegboard/snowfllay.webp",
     track: "https://open.spotify.com/embed/track/43mnNatwMMydJ4CxMdQVnJ?utm_source=generator",
     headphonePos: { bottom: "29vw", right: "10.5vw" },
     photostrips: [
-      { img: "assets/image/photostrip/snowfllay1.png", pos: { bottom: "1vw", left: "10vw" } },
-      { img: "assets/image/photostrip/snowfllay2.png", pos: { bottom: "6vw", left: "14vw" } }
+      { img: "assets/image/photostrip/snowfllay1.webp", pos: { bottom: "1vw", left: "10vw" } },
+      { img: "assets/image/photostrip/snowfllay2.webp", pos: { bottom: "6vw", left: "14vw" } }
     ],
-    photoframe: "assets/image/photoframe/snowfllay.jpg",
+    photoframe: "assets/image/photoframe/snowfllay.webp",
     photoframePos: { bottom: "2vw", right: "18vw" }
   },
   {
     name: "miffymoch",
-    ownerImg: "assets/image/owner/miffymoch.png",
-    pegboardImg: "assets/image/pegboard/miffymoch.png",
+    ownerImg: "assets/image/owner/miffymoch.webp",
+    pegboardImg: "assets/image/pegboard/miffymoch.webp",
     track: "https://open.spotify.com/embed/track/1JYtwhnjpVxQeYE9uyU2Lx?utm_source=generator",
     headphonePos: { bottom: "1vw", right: "2.5vw" },
     photostrips: [
-      { img: "assets/image/photostrip/miffymoch1.png", pos: { bottom: "3vw", left: "18vw" } },
-      { img: "assets/image/photostrip/miffymoch2.png", pos: { bottom: "5vw", left: "12.5vw" } }
+      { img: "assets/image/photostrip/miffymoch1.webp", pos: { bottom: "3vw", left: "18vw" } },
+      { img: "assets/image/photostrip/miffymoch2.webp", pos: { bottom: "5vw", left: "12.5vw" } }
     ],
-    photoframe: "assets/image/photoframe/miffymoch.jpg",
+    photoframe: "assets/image/photoframe/miffymoch.webp",
     photoframePos: { bottom: "4vw", right: "34vw" }
   },
   {
     name: "suzu",
-    ownerImg: "assets/image/owner/suzu.png",
-    pegboardImg: "assets/image/pegboard/pinkcrispss.png",
+    ownerImg: "assets/image/owner/suzu.webp",
+    pegboardImg: "assets/image/pegboard/pinkcrispss.webp",
     track: "https://open.spotify.com/embed/track/5DxDLsW6PsLz5gkwC7Mk5S?utm_source=generator",
     headphonePos: { bottom: "27vw", right: "0.5vw" },
     photostrips: [
-      { img: "assets/image/photostrip/pinkcrispss1.png", pos: { bottom: "34vw", left: "8vw" } },
-      { img: "assets/image/photostrip/pinkcrispss1.png", pos: { bottom: "26vw", left: "11vw" } },
-      { img: "assets/image/photostrip/pinkcrispss2.png", pos: { bottom: "20vw", left: "6.5vw" } },
-      { img: "assets/image/photostrip/pinkcrispss2.png", pos: { bottom: "11vw", left: "6.5vw" } }
+      { img: "assets/image/photostrip/pinkcrispss1.webp", pos: { bottom: "34vw", left: "8vw" } },
+      { img: "assets/image/photostrip/pinkcrispss1.webp", pos: { bottom: "26vw", left: "11vw" } },
+      { img: "assets/image/photostrip/pinkcrispss2.webp", pos: { bottom: "20vw", left: "6.5vw" } },
+      { img: "assets/image/photostrip/pinkcrispss2.webp", pos: { bottom: "11vw", left: "6.5vw" } }
     ],
-    photoframe: "assets/image/photoframe/suzu.jpg",
+    photoframe: "assets/image/photoframe/suzu.webp",
     photoframePos: { bottom: "1vw", right: "22vw" }
   },
   {
     name: "syreenie",
-    ownerImg: "assets/image/owner/syreenie.png",
-    pegboardImg: "assets/image/pegboard/syreenie.png",
+    ownerImg: "assets/image/owner/syreenie.webp",
+    pegboardImg: "assets/image/pegboard/syreenie.webp",
     track: "https://open.spotify.com/embed/track/3HMY0r2BAdpasXMY8rseR0?utm_source=generator",
     headphonePos: { bottom: "8vw", right: "0.5vw" },
     photostrips: [
-      { img: "assets/image/photostrip/syreenie1.png", pos: { bottom: "6vw", left: "23.5vw" } },
-      { img: "assets/image/photostrip/syreenie2.png", pos: { bottom: "3vw", left: "19.5vw" } }
+      { img: "assets/image/photostrip/syreenie1.webp", pos: { bottom: "6vw", left: "23.5vw" } },
+      { img: "assets/image/photostrip/syreenie2.webp", pos: { bottom: "3vw", left: "19.5vw" } }
     ],
-    photoframe: "assets/image/photoframe/syreenie.jpg",
+    photoframe: "assets/image/photoframe/syreenie.webp",
     photoframePos: { bottom: "1vw", right: "27vw" }
   },
   {
     name: "irnemin",
-    ownerImg: "assets/image/owner/irnemin.png",
-    pegboardImg: "assets/image/pegboard/irnemin.png",
+    ownerImg: "assets/image/owner/irnemin.webp",
+    pegboardImg: "assets/image/pegboard/irnemin.webp",
     track: "https://open.spotify.com/embed/track/3QJsSWa0Xo8MfaRn1gr4Be?utm_source=generator",
     headphonePos: { bottom: "1vw", right: "3.5vw" },
     photostrips: [
-      { img: "assets/image/photostrip/irnemin1.png", pos: { bottom: "11vw", left: "16.5vw" } },
-      { img: "assets/image/photostrip/irnemin2.png", pos: { bottom: "3vw", left: "13.5vw" } }
+      { img: "assets/image/photostrip/irnemin1.webp", pos: { bottom: "11vw", left: "16.5vw" } },
+      { img: "assets/image/photostrip/irnemin2.webp", pos: { bottom: "3vw", left: "13.5vw" } }
     ],
-    photoframe: "assets/image/photoframe/irnemin.jpg",
+    photoframe: "assets/image/photoframe/irnemin.webp",
     photoframePos: { bottom: "20vw", right: "28vw" }
   }
 //   ,
 //   {
 //     name: "catsylus",
-//     ownerImg: "assets/image/owner/catsylus.png",
-//     pegboardImg: "assets/image/pegboard/catsylus.png",
+//     ownerImg: "assets/image/owner/catsylus.webp",
+//     pegboardImg: "assets/image/pegboard/catsylus.webp",
 //     track: "https://open.spotify.com/embed/track/6Qyc6fS4DsZjB2mRW9DsQs?utm_source=generator",
 //     headphonePos: { bottom: "27vw", right: "7.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/catsylus1.png", pos: { bottom: "33vw", left: "4.5vw" } },
-//       { img: "assets/image/photostrip/catsylus2.png", pos: { bottom: "28vw", left: "-0.5vw" } }
+//       { img: "assets/image/photostrip/catsylus1.webp", pos: { bottom: "33vw", left: "4.5vw" } },
+//       { img: "assets/image/photostrip/catsylus2.webp", pos: { bottom: "28vw", left: "-0.5vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/catsylus.jpg",
+//     photoframe: "assets/image/photoframe/catsylus.webp",
 //     photoframePos: { bottom: "2vw", right: "8vw" }
 //   }
 //   ,
 //   {
 //     name: "alyaa_ayo",
-//     ownerImg: "assets/image/owner/alyaa_ayo.png",
-//     pegboardImg: "assets/image/pegboard/alyaa_ayo.png",
+//     ownerImg: "assets/image/owner/alyaa_ayo.webp",
+//     pegboardImg: "assets/image/pegboard/alyaa_ayo.webp",
 //     track: "https://open.spotify.com/embed/track/4C4zy9kfjYjr6IcNAdV7ZD?utm_source=generator",
 //     headphonePos: { bottom: "27vw", right: "30.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/alyaa_ayo1.png", pos: { bottom: "33vw", left: "29.5vw" } },
-//       { img: "assets/image/photostrip/alyaa_ayo2.png", pos: { bottom: "29vw", left: "36.5vw" } }
+//       { img: "assets/image/photostrip/alyaa_ayo1.webp", pos: { bottom: "33vw", left: "29.5vw" } },
+//       { img: "assets/image/photostrip/alyaa_ayo2.webp", pos: { bottom: "29vw", left: "36.5vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/alyaa_ayo.jpg",
+//     photoframe: "assets/image/photoframe/alyaa_ayo.webp",
 //     photoframePos: { bottom: "35vw", right: "22vw" }
 //   },
 //   {
 //     name: "kumineOfficial",
-//     ownerImg: "assets/image/owner/kumineofficial.png",
-//     pegboardImg: "assets/image/pegboard/kumineofficial.png",
+//     ownerImg: "assets/image/owner/kumineofficial.webp",
+//     pegboardImg: "assets/image/pegboard/kumineofficial.webp",
 //     track: "https://open.spotify.com/embed/track/3yWuTOYDztXjZxdE2cIRUa?utm_source=generator",
 //     headphonePos: { bottom: "29vw", right: "15.5vw" },
 //     photostrips: [
-//   { img: "assets/image/photostrip/kumineofficial1.png", pos: { bottom: "14vw", left: "9vw" } },
-//   { img: "assets/image/photostrip/kumineofficial2.png", pos: { bottom: "11vw", left: "0vw" } },
-//   { img: "assets/image/photostrip/kumineofficial2.png", pos: { bottom: "3vw", left: "1vw" } },
-//   { img: "assets/image/photostrip/kumineofficial1.png", pos: { bottom: "4vw", left: "9vw" } }
+//   { img: "assets/image/photostrip/kumineofficial1.webp", pos: { bottom: "14vw", left: "9vw" } },
+//   { img: "assets/image/photostrip/kumineofficial2.webp", pos: { bottom: "11vw", left: "0vw" } },
+//   { img: "assets/image/photostrip/kumineofficial2.webp", pos: { bottom: "3vw", left: "1vw" } },
+//   { img: "assets/image/photostrip/kumineofficial1.webp", pos: { bottom: "4vw", left: "9vw" } }
 // ],
-//     photoframe: "assets/image/photoframe/kumineofficial.jpg",
+//     photoframe: "assets/image/photoframe/kumineofficial.webp",
 //     photoframePos: { bottom: "34vw", right: "7vw" }
 //   },
 //   {
 //     name: "bintangsaljuu",
-//     ownerImg: "assets/image/owner/bintangsaljuu.png",
-//     pegboardImg: "assets/image/pegboard/bintangsaljuu.png",
+//     ownerImg: "assets/image/owner/bintangsaljuu.webp",
+//     pegboardImg: "assets/image/pegboard/bintangsaljuu.webp",
 //     track: "https://open.spotify.com/embed/track/49EywdY1mHFj27OY7U8Y2d?utm_source=generator",
 //     headphonePos: { bottom: "-2vw", right: "-1.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/bintangsaljuu1.png", pos: { bottom: "8vw", left: "14vw" } },
-//       { img: "assets/image/photostrip/bintangsaljuu2.png", pos: { bottom: "5vw", left: "21.5vw" } }
+//       { img: "assets/image/photostrip/bintangsaljuu1.webp", pos: { bottom: "8vw", left: "14vw" } },
+//       { img: "assets/image/photostrip/bintangsaljuu2.webp", pos: { bottom: "5vw", left: "21.5vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/bintangsaljuu.jpg",
+//     photoframe: "assets/image/photoframe/bintangsaljuu.webp",
 //     photoframePos: { bottom: "20vw", right: "19vw" }
 //   },
 //   {
 //     name: "snowyplli",
-//     ownerImg: "assets/image/owner/snowyplli.png",
-//     pegboardImg: "assets/image/pegboard/snowyplli.png",
+//     ownerImg: "assets/image/owner/snowyplli.webp",
+//     pegboardImg: "assets/image/pegboard/snowyplli.webp",
 //     track: "https://open.spotify.com/embed/track/4YmrTTR0fxBE3nBS8StToi?utm_source=generator",
 //     headphonePos: { bottom: "14vw", right: "24.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/snowyplli1.png", pos: { bottom: "22vw", left: "23vw" } },
-//       { img: "assets/image/photostrip/snowyplli2.png", pos: { bottom: "22vw", left: "28.5vw" } }
+//       { img: "assets/image/photostrip/snowyplli1.webp", pos: { bottom: "22vw", left: "23vw" } },
+//       { img: "assets/image/photostrip/snowyplli2.webp", pos: { bottom: "22vw", left: "28.5vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/snowyplli.jpg",
+//     photoframe: "assets/image/photoframe/snowyplli.webp",
 //     photoframePos: { bottom: "10vw", right: "11vw" }
 //   },
 //   {
 //     name: "arcanevix",
-//     ownerImg: "assets/image/owner/arcanevix.png",
-//     pegboardImg: "assets/image/pegboard/arcanevix.png",
+//     ownerImg: "assets/image/owner/arcanevix.webp",
+//     pegboardImg: "assets/image/pegboard/arcanevix.webp",
 //     track: "https://open.spotify.com/embed/track/02sy7FAs8dkDNYsHp4Ul3f?utm_source=generator",
 //     headphonePos: { bottom: "0vw", right: "-0.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/arcanevix1.png", pos: { bottom: "7vw", left: "7.5vw" } },
-//       { img: "assets/image/photostrip/arcanevix2.png", pos: { bottom: "3vw", left: "13vw" } }
+//       { img: "assets/image/photostrip/arcanevix1.webp", pos: { bottom: "7vw", left: "7.5vw" } },
+//       { img: "assets/image/photostrip/arcanevix2.webp", pos: { bottom: "3vw", left: "13vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/arcanevix.jpg",
+//     photoframe: "assets/image/photoframe/arcanevix.webp",
 //     photoframePos: { bottom: "0vw", right: "18vw" }
 //   }
 //   ,
 //   {
 //     name: "alexhanayuki",
-//     ownerImg: "assets/image/owner/alexhanayuki.png",
-//     pegboardImg: "assets/image/pegboard/alexhanayuki.png",
+//     ownerImg: "assets/image/owner/alexhanayuki.webp",
+//     pegboardImg: "assets/image/pegboard/alexhanayuki.webp",
 //     track: "https://open.spotify.com/embed/track/59hVbgr8rfYkDbHfr8RcGI?utm_source=generator",
 //     headphonePos: { bottom: "-1vw", right: "1.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/alexhanayuki1.png", pos: { bottom: "25vw", left: "36.5vw" } },
-//       { img: "assets/image/photostrip/alexhanayuki2.png", pos: { bottom: "25vw", left: "28.5vw" } },      
-//       { img: "assets/image/photostrip/alexhanayuki1.png", pos: { bottom: "18vw", left: "36.5vw" } },
-//       { img: "assets/image/photostrip/alexhanayuki2.png", pos: { bottom: "16vw", left: "28.5vw" } }
+//       { img: "assets/image/photostrip/alexhanayuki1.webp", pos: { bottom: "25vw", left: "36.5vw" } },
+//       { img: "assets/image/photostrip/alexhanayuki2.webp", pos: { bottom: "25vw", left: "28.5vw" } },      
+//       { img: "assets/image/photostrip/alexhanayuki1.webp", pos: { bottom: "18vw", left: "36.5vw" } },
+//       { img: "assets/image/photostrip/alexhanayuki2.webp", pos: { bottom: "16vw", left: "28.5vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/alexhanayuki.jpg",
+//     photoframe: "assets/image/photoframe/alexhanayuki.webp",
 //     photoframePos: { bottom: "35vw", right: "6vw" }
 //   },
 //   {
 //     name: "ryuno_aika",
-//     ownerImg: "assets/image/owner/ryuno_aika.png",
-//     pegboardImg: "assets/image/pegboard/ryuno_aika.png",
+//     ownerImg: "assets/image/owner/ryuno_aika.webp",
+//     pegboardImg: "assets/image/pegboard/ryuno_aika.webp",
 //     track: "https://open.spotify.com/embed/track/60jI0JgMLLj1VggHJVhtRs?utm_source=generator",
 //     headphonePos: { bottom: "-1vw", right: "28.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/ryuno_aika1.png", pos: { bottom: "7vw", left: "20.5vw" } },
-//       { img: "assets/image/photostrip/ryuno_aika2.png", pos: { bottom: "10vw", left: "14.5vw" } }
+//       { img: "assets/image/photostrip/ryuno_aika1.webp", pos: { bottom: "7vw", left: "20.5vw" } },
+//       { img: "assets/image/photostrip/ryuno_aika2.webp", pos: { bottom: "10vw", left: "14.5vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/ryuno_aika.jpg",
+//     photoframe: "assets/image/photoframe/ryuno_aika.webp",
 //     photoframePos: { bottom: "22vw", right: "25vw" }
 //   },
 //   {
 //     name: "taeohbeng",
-//     ownerImg: "assets/image/owner/taeohbeng.png",
-//     pegboardImg: "assets/image/pegboard/taeohbeng.png",
+//     ownerImg: "assets/image/owner/taeohbeng.webp",
+//     pegboardImg: "assets/image/pegboard/taeohbeng.webp",
 //     track: "https://open.spotify.com/embed/track/6dOtVTDdiauQNBQEDOtlAB?utm_source=generator",
 //     headphonePos: { bottom: "1vw", right: "1.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/taeohbeng1.png", pos: { bottom: "3vw", left: "10vw" } },
-//       { img: "assets/image/photostrip/taeohbeng2.png", pos: { bottom: "9vw", left: "14vw" } }
+//       { img: "assets/image/photostrip/taeohbeng1.webp", pos: { bottom: "3vw", left: "10vw" } },
+//       { img: "assets/image/photostrip/taeohbeng2.webp", pos: { bottom: "9vw", left: "14vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/taeohbeng.jpg",
+//     photoframe: "assets/image/photoframe/taeohbeng.webp",
 //     photoframePos: { bottom: "1vw", right: "19.5vw" }
 //   },
 //   {
 //     name: "maiappleb",
-//     ownerImg: "assets/image/owner/maiappleb.png",
-//     pegboardImg: "assets/image/pegboard/maiappleb.png",
+//     ownerImg: "assets/image/owner/maiappleb.webp",
+//     pegboardImg: "assets/image/pegboard/maiappleb.webp",
 //     track: "https://open.spotify.com/embed/track/1dsyet7twT6JzKw13Of59S?utm_source=generator",
 //     headphonePos: { bottom: "1vw", right: "3.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/maiappleb1.png", pos: { bottom: "2vw", left: "8vw" } },
-//       { img: "assets/image/photostrip/maiappleb2.png", pos: { bottom: "9vw", left: "11.5vw" } }
+//       { img: "assets/image/photostrip/maiappleb1.webp", pos: { bottom: "2vw", left: "8vw" } },
+//       { img: "assets/image/photostrip/maiappleb2.webp", pos: { bottom: "9vw", left: "11.5vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/maiappleb.jpg",
+//     photoframe: "assets/image/photoframe/maiappleb.webp",
 //     photoframePos: { bottom: "3vw", right: "22vw" }
 //   },
 //   {
 //     name: "dearlovelily",
-//     ownerImg: "assets/image/owner/dearlovelily.png",
-//     pegboardImg: "assets/image/pegboard/dearlovelily.png",
+//     ownerImg: "assets/image/owner/dearlovelily.webp",
+//     pegboardImg: "assets/image/pegboard/dearlovelily.webp",
 //     track: "https://open.spotify.com/embed/track/6vo0dV9t7PCQZKsLFwVwZ5?utm_source=generator",
 //     headphonePos: { bottom: "1vw", right: "27.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/dearlovelily1.png", pos: { bottom: "23vw", left: "26vw" } },
-//       { img: "assets/image/photostrip/dearlovelily2.png", pos: { bottom: "22vw", left: "21vw" } }
+//       { img: "assets/image/photostrip/dearlovelily1.webp", pos: { bottom: "23vw", left: "26vw" } },
+//       { img: "assets/image/photostrip/dearlovelily2.webp", pos: { bottom: "22vw", left: "21vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/dearlovelily.png",
+//     photoframe: "assets/image/photoframe/dearlovelily.webp",
 //     photoframePos: { bottom: "34vw", right: "15.5vw" }
 //   },
 //  {
 //   name: "lenacatnipurrer",
-//   ownerImg: "assets/image/owner/lenacatnipurrer.png",
-//   pegboardImg: "assets/image/pegboard/lenacatnipurrer.png",
+//   ownerImg: "assets/image/owner/lenacatnipurrer.webp",
+//   pegboardImg: "assets/image/pegboard/lenacatnipurrer.webp",
 //   track: "https://open.spotify.com/embed/track/2f7HKQh8zptKYnO6aIhErl?utm_source=generator",
 //   headphonePos: { bottom: "26vw", right: "0.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/lenacatnipurrer2.png", pos: { bottom: "17vw", left: "35.5vw" } },
-//     { img: "assets/image/photostrip/lenacatnipurrer2.png", pos: { bottom: "10vw", left: "35.5vw" } },
-//     { img: "assets/image/photostrip/lenacatnipurrer1.png", pos: { bottom: "12vw", left: "28.5vw" } },
-//     { img: "assets/image/photostrip/lenacatnipurrer1.png", pos: { bottom: "3vw", left: "29.5vw" } }
+//     { img: "assets/image/photostrip/lenacatnipurrer2.webp", pos: { bottom: "17vw", left: "35.5vw" } },
+//     { img: "assets/image/photostrip/lenacatnipurrer2.webp", pos: { bottom: "10vw", left: "35.5vw" } },
+//     { img: "assets/image/photostrip/lenacatnipurrer1.webp", pos: { bottom: "12vw", left: "28.5vw" } },
+//     { img: "assets/image/photostrip/lenacatnipurrer1.webp", pos: { bottom: "3vw", left: "29.5vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/lenacatnipurrer.jpg",
+//   photoframe: "assets/image/photoframe/lenacatnipurrer.webp",
 //   photoframePos: { bottom: "17vw", right: "35vw" }
 // },
 // {
 //   name: "syluswanted",
-//   ownerImg: "assets/image/owner/syluswanted.png",
-//   pegboardImg: "assets/image/pegboard/syluswanted.png",
+//   ownerImg: "assets/image/owner/syluswanted.webp",
+//   pegboardImg: "assets/image/pegboard/syluswanted.webp",
 //   track: "https://open.spotify.com/embed/track/19Hg1UCZaCdpHB37L7x63X?utm_source=generator",
 //   headphonePos: { bottom: "23vw", right: "9.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/syluswanted.png", pos: { bottom: "7vw", left: "12.5vw" } },
-//     { img: "assets/image/photostrip/syluswanted.png", pos: { bottom: "1vw", left: "12.5vw" } }
+//     { img: "assets/image/photostrip/syluswanted.webp", pos: { bottom: "7vw", left: "12.5vw" } },
+//     { img: "assets/image/photostrip/syluswanted.webp", pos: { bottom: "1vw", left: "12.5vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/syluswanted.jpg",
+//   photoframe: "assets/image/photoframe/syluswanted.webp",
 //   photoframePos: { bottom: "20vw", right: "25vw" }
 // },
 // {
 //   name: "r_elle_too",
-//   ownerImg: "assets/image/owner/r_elle_too.png",
-//   pegboardImg: "assets/image/pegboard/r_elle_too.png",
+//   ownerImg: "assets/image/owner/r_elle_too.webp",
+//   pegboardImg: "assets/image/pegboard/r_elle_too.webp",
 //   track: "https://open.spotify.com/embed/track/3jqIugXgGe4CgGu3S77ASY?utm_source=generator",
 //   headphonePos: { bottom: "13vw", right: "9.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/r_elle_too1.png", pos: { bottom: "3vw", left: "24.5vw" } },
-//     { img: "assets/image/photostrip/r_elle_too2.png", pos: { bottom: "8vw", left: "10.5vw" } },
-//     { img: "assets/image/photostrip/r_elle_too2.png", pos: { bottom: "1vw", left: "10.5vw" } }
+//     { img: "assets/image/photostrip/r_elle_too1.webp", pos: { bottom: "3vw", left: "24.5vw" } },
+//     { img: "assets/image/photostrip/r_elle_too2.webp", pos: { bottom: "8vw", left: "10.5vw" } },
+//     { img: "assets/image/photostrip/r_elle_too2.webp", pos: { bottom: "1vw", left: "10.5vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/r_elle_too.png",
+//   photoframe: "assets/image/photoframe/r_elle_too.webp",
 //   photoframePos: { bottom: "20vw", right: "27vw" }
 // },
 // {
 //   name: "minniieex_",
-//   ownerImg: "assets/image/owner/minniieex_.png",
-//   pegboardImg: "assets/image/pegboard/minniieex_.png",
+//   ownerImg: "assets/image/owner/minniieex_.webp",
+//   pegboardImg: "assets/image/pegboard/minniieex_.webp",
 //   track: "https://open.spotify.com/embed/track/0W0iAC1VGlB82PI6elxFYf?utm_source=generator",
 //   headphonePos: { bottom: "24vw", right: "-1.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/minniieex_1.png", pos: { bottom: "25vw", left: "23.5vw" } },
-//     { img: "assets/image/photostrip/minniieex_1.png", pos: { bottom: "32vw", left: "23.5vw" } }
+//     { img: "assets/image/photostrip/minniieex_1.webp", pos: { bottom: "25vw", left: "23.5vw" } },
+//     { img: "assets/image/photostrip/minniieex_1.webp", pos: { bottom: "32vw", left: "23.5vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/minniieex_.jpg",
+//   photoframe: "assets/image/photoframe/minniieex_.webp",
 //   photoframePos: { bottom: "21vw", right: "24vw" }
 // },
 // {
 //   name: "nanami2779",
-//   ownerImg: "assets/image/owner/nanami2779.png",
-//   pegboardImg: "assets/image/pegboard/nanami2779.png",
+//   ownerImg: "assets/image/owner/nanami2779.webp",
+//   pegboardImg: "assets/image/pegboard/nanami2779.webp",
 //   track: "https://open.spotify.com/embed/track/6Zyizxfz4NXdCgVLwhuBNw?utm_source=generator",
 //   headphonePos: { bottom: "14vw", right: "10.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/nanami27791.png", pos: { bottom: "12vw", left: "11.5vw" } },
-//     { img: "assets/image/photostrip/nanami27791.png", pos: { bottom: "3vw", left: "10.5vw" } },
-//     { img: "assets/image/photostrip/nanami27792.png", pos: { bottom: "9vw", left: "25.5vw" } }
+//     { img: "assets/image/photostrip/nanami27791.webp", pos: { bottom: "12vw", left: "11.5vw" } },
+//     { img: "assets/image/photostrip/nanami27791.webp", pos: { bottom: "3vw", left: "10.5vw" } },
+//     { img: "assets/image/photostrip/nanami27792.webp", pos: { bottom: "9vw", left: "25.5vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/nanami2779.jpg",
+//   photoframe: "assets/image/photoframe/nanami2779.webp",
 //   photoframePos: { bottom: "33vw", right: "15vw" }
 // },
 // {
 //   name: "shayma9749",
-//   ownerImg: "assets/image/owner/shayma9749.png",
-//   pegboardImg: "assets/image/pegboard/shayma9749.png",
+//   ownerImg: "assets/image/owner/shayma9749.webp",
+//   pegboardImg: "assets/image/pegboard/shayma9749.webp",
 //   track: "https://open.spotify.com/embed/track/6g95dK7o7vVh8ZCnDAseU5?utm_source=generator",
 //   headphonePos: { bottom: "6vw", right: "0.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/shayma97491.png", pos: { bottom: "15vw", left: "-1vw" } },
-//     { img: "assets/image/photostrip/shayma97492.png", pos: { bottom: "21vw", left: "35vw" } }
+//     { img: "assets/image/photostrip/shayma97491.webp", pos: { bottom: "15vw", left: "-1vw" } },
+//     { img: "assets/image/photostrip/shayma97492.webp", pos: { bottom: "21vw", left: "35vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/shayma9749.jpg",
+//   photoframe: "assets/image/photoframe/shayma9749.webp",
 //   photoframePos: { bottom: "9vw", right: "21vw" }
 // },
 // {
 //   name: "farahsylove",
-//   ownerImg: "assets/image/owner/farahsylove.png",
-//   pegboardImg: "assets/image/pegboard/farahsylove.png",
+//   ownerImg: "assets/image/owner/farahsylove.webp",
+//   pegboardImg: "assets/image/pegboard/farahsylove.webp",
 //   track: "https://open.spotify.com/embed/track/4pvqqKqEC5GoBca08g2gTb?utm_source=generator",
 //   headphonePos: { bottom: "0vw", right: "27.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/farahsylove1.png", pos: { bottom: "34vw", left: "8vw" } },
-//     { img: "assets/image/photostrip/farahsylove1.png", pos: { bottom: "27vw", left: "9vw" } },
-//     { img: "assets/image/photostrip/farahsylove2.png", pos: { bottom: "21vw", left: "19.5vw" } }
+//     { img: "assets/image/photostrip/farahsylove1.webp", pos: { bottom: "34vw", left: "8vw" } },
+//     { img: "assets/image/photostrip/farahsylove1.webp", pos: { bottom: "27vw", left: "9vw" } },
+//     { img: "assets/image/photostrip/farahsylove2.webp", pos: { bottom: "21vw", left: "19.5vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/farahsylove.jpg",
+//   photoframe: "assets/image/photoframe/farahsylove.webp",
 //   photoframePos: { bottom: "19vw", right: "6vw" }
 // },
 
 // {
 //   name: "miwaluvsy",
-//   ownerImg: "assets/image/owner/miwaluvsy.png",
-//   pegboardImg: "assets/image/pegboard/miwaluvsy.png",
+//   ownerImg: "assets/image/owner/miwaluvsy.webp",
+//   pegboardImg: "assets/image/pegboard/miwaluvsy.webp",
 //   track: "https://open.spotify.com/embed/track/69mNxaEGvfj8aBCc7cAAZS?utm_source=generator",
 //   headphonePos: { bottom: "1vw", right: "2.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/miwaluvsy1.png", pos: { bottom: "3vw", left: "19vw" } },
-//     { img: "assets/image/photostrip/miwaluvsy2.png", pos: { bottom: "0vw", left: "19vw" } }
+//     { img: "assets/image/photostrip/miwaluvsy1.webp", pos: { bottom: "3vw", left: "19vw" } },
+//     { img: "assets/image/photostrip/miwaluvsy2.webp", pos: { bottom: "0vw", left: "19vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/miwaluvsy.jpg",
+//   photoframe: "assets/image/photoframe/miwaluvsy.webp",
 //   photoframePos: { bottom: "8vw", right: "27vw" }
 // },
 
 // { 
 //   name: "anime_lover3940",
-//   ownerImg: "assets/image/owner/anime_lover3940.png",
-//   pegboardImg: "assets/image/pegboard/anime_lover3940.png",
+//   ownerImg: "assets/image/owner/anime_lover3940.webp",
+//   pegboardImg: "assets/image/pegboard/anime_lover3940.webp",
 //   track: "https://open.spotify.com/embed/track/5rPNVwYjVEgkq6YNPki4Zc?utm_source=generator",
 //   headphonePos: { bottom: "-1vw", right: "-1.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/anime_lover3940_1.png", pos: { bottom: "10vw", left: "18.5vw" } },
-//     { img: "assets/image/photostrip/anime_lover3940_2.png", pos: { bottom: "2vw", left: "12vw" } },
-//     { img: "assets/image/photostrip/anime_lover3940_2.png", pos: { bottom: "9vw", left: "12vw" } },
-//     { img: "assets/image/photostrip/anime_lover3940_3.png", pos: { bottom: "10vw", left: "6vw" } }
+//     { img: "assets/image/photostrip/anime_lover3940_1.webp", pos: { bottom: "10vw", left: "18.5vw" } },
+//     { img: "assets/image/photostrip/anime_lover3940_2.webp", pos: { bottom: "2vw", left: "12vw" } },
+//     { img: "assets/image/photostrip/anime_lover3940_2.webp", pos: { bottom: "9vw", left: "12vw" } },
+//     { img: "assets/image/photostrip/anime_lover3940_3.webp", pos: { bottom: "10vw", left: "6vw" } }
 //   ],
 //   photoframes: [
-//     { img: "assets/image/photoframe/anime_lover3940_1.jpg", pos: { bottom: "13vw", right: "11vw" } },
-//     { img: "assets/image/photoframe/anime_lover3940_2.jpg", pos: { bottom: "5vw", right: "15vw" } }
+//     { img: "assets/image/photoframe/anime_lover3940_1.webp", pos: { bottom: "13vw", right: "11vw" } },
+//     { img: "assets/image/photoframe/anime_lover3940_2.webp", pos: { bottom: "5vw", right: "15vw" } }
 //   ]
 // },
 
 // {
 //   name: "solemyst_twt",
-//   ownerImg: "assets/image/owner/solemyst_twt.png",
-//   pegboardImg: "assets/image/pegboard/solemyst_twt.png",
+//   ownerImg: "assets/image/owner/solemyst_twt.webp",
+//   pegboardImg: "assets/image/pegboard/solemyst_twt.webp",
 //   track: "https://open.spotify.com/embed/track/2ApfJvLr7RbhJl6NOVhEu6?utm_source=generator",
 //   headphonePos: { bottom: "0vw", right: "0.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/solemyst_twt1.png", pos: { bottom: "11vw", left: "13.5vw" } },
-//     { img: "assets/image/photostrip/solemyst_twt1.png", pos: { bottom: "19vw", left: "13.5vw" } }
+//     { img: "assets/image/photostrip/solemyst_twt1.webp", pos: { bottom: "11vw", left: "13.5vw" } },
+//     { img: "assets/image/photostrip/solemyst_twt1.webp", pos: { bottom: "19vw", left: "13.5vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/solemyst_twt.jpg",
+//   photoframe: "assets/image/photoframe/solemyst_twt.webp",
 //   photoframePos: { bottom: "1vw", right: "25vw" }
 // },
 
 // {
 //   name: "mashandcheese",
-//   ownerImg: "assets/image/owner/mashandcheese.png",
-//   pegboardImg: "assets/image/pegboard/mashandcheese.png",
+//   ownerImg: "assets/image/owner/mashandcheese.webp",
+//   pegboardImg: "assets/image/pegboard/mashandcheese.webp",
 //   track: "https://open.spotify.com/embed/track/0SGojwNP2zUrgDyeoBQxYO?utm_source=generator",
 //   headphonePos: { bottom: "23vw", right: "26.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/mashandcheese.png", pos: { bottom: "8vw", left: "12.5vw" } },
-//     { img: "assets/image/photostrip/mashandcheese.png", pos: { bottom: "2vw", left: "13.5vw" } }
+//     { img: "assets/image/photostrip/mashandcheese.webp", pos: { bottom: "8vw", left: "12.5vw" } },
+//     { img: "assets/image/photostrip/mashandcheese.webp", pos: { bottom: "2vw", left: "13.5vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/mashandcheese.jpg",
+//   photoframe: "assets/image/photoframe/mashandcheese.webp",
 //   photoframePos: { bottom: "12vw", right: "17vw" }
 // },
 
 // {
 //   name: "sylusplume",
-//   ownerImg: "assets/image/owner/sylusplume.png",
-//   pegboardImg: "assets/image/pegboard/sylusplume.png",
+//   ownerImg: "assets/image/owner/sylusplume.webp",
+//   pegboardImg: "assets/image/pegboard/sylusplume.webp",
 //   track: "https://open.spotify.com/embed/track/6dWilYAxP2aJbTTt0UsatK?utm_source=generator",
 //   headphonePos: { bottom: "27vw", right: "9.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/sylusplume1.png", pos: { bottom: "23vw", left: "3.5vw" } },
-//     { img: "assets/image/photostrip/sylusplume2.png", pos: { bottom: "20vw", left: "-1vw" } }
+//     { img: "assets/image/photostrip/sylusplume1.webp", pos: { bottom: "23vw", left: "3.5vw" } },
+//     { img: "assets/image/photostrip/sylusplume2.webp", pos: { bottom: "20vw", left: "-1vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/sylusplume.jpg",
+//   photoframe: "assets/image/photoframe/sylusplume.webp",
 //   photoframePos: { bottom: "24vw", right: "27vw" }
 // },
 
 // {
 //   name: "mochimeowllow",
-//   ownerImg: "assets/image/owner/mochimeowllow.png",
-//   pegboardImg: "assets/image/pegboard/mochimeowllow.png",
+//   ownerImg: "assets/image/owner/mochimeowllow.webp",
+//   pegboardImg: "assets/image/pegboard/mochimeowllow.webp",
 //   track: "https://open.spotify.com/embed/track/7JYtGQsBwwgpHjFCZ4y5Ey?utm_source=generator",
 //   headphonePos: { bottom: "28vw", right: "21.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/mochimeowllow1.png", pos: { bottom: "9vw", left: "21vw" } },
-//     { img: "assets/image/photostrip/mochimeowllow1.png", pos: { bottom: "3vw", left: "21vw" } },
-//     { img: "assets/image/photostrip/mochimeowllow2.png", pos: { bottom: "34vw", left: "36.2vw" } },
-//     { img: "assets/image/photostrip/mochimeowllow2.png", pos: { bottom: "27vw", left: "36.2vw" } }
+//     { img: "assets/image/photostrip/mochimeowllow1.webp", pos: { bottom: "9vw", left: "21vw" } },
+//     { img: "assets/image/photostrip/mochimeowllow1.webp", pos: { bottom: "3vw", left: "21vw" } },
+//     { img: "assets/image/photostrip/mochimeowllow2.webp", pos: { bottom: "34vw", left: "36.2vw" } },
+//     { img: "assets/image/photostrip/mochimeowllow2.webp", pos: { bottom: "27vw", left: "36.2vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/mochimeowllow.jpg",
+//   photoframe: "assets/image/photoframe/mochimeowllow.webp",
 //   photoframePos: { bottom: "20vw", right: "10vw" }
 // },
 
 // {
 //   name: "xinghuiatus",
-//   ownerImg: "assets/image/owner/xinghuiatus.png",
-//   pegboardImg: "assets/image/pegboard/xinghuiatus.png",
+//   ownerImg: "assets/image/owner/xinghuiatus.webp",
+//   pegboardImg: "assets/image/pegboard/xinghuiatus.webp",
 //   track: "https://open.spotify.com/embed/track/2U28aK9o2gI7sBL4XRzFfL?utm_source=generator",
 //   headphonePos: { bottom: "25vw", right: "17.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/xinghuiatus1.png", pos: { bottom: "10vw", left: "14vw" } },
-//     { img: "assets/image/photostrip/xinghuiatus2.png", pos: { bottom: "14vw", left: "18vw" } }
+//     { img: "assets/image/photostrip/xinghuiatus1.webp", pos: { bottom: "10vw", left: "14vw" } },
+//     { img: "assets/image/photostrip/xinghuiatus2.webp", pos: { bottom: "14vw", left: "18vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/xinghuiatus.jpg",
+//   photoframe: "assets/image/photoframe/xinghuiatus.webp",
 //   photoframePos: { bottom: "16vw", right: "12vw" }
 // },
 
 // {
 //   name: "haujux",
-//   ownerImg: "assets/image/owner/haujux.png",
-//   pegboardImg: "assets/image/pegboard/haujux.png",
+//   ownerImg: "assets/image/owner/haujux.webp",
+//   pegboardImg: "assets/image/pegboard/haujux.webp",
 //   track: "https://open.spotify.com/embed/track/21yCOhgaDMc0KEtxhZHTbI?utm_source=generator",
 //   headphonePos: { bottom: "20vw", right: "-1.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/haujux1.png", pos: { bottom: "4vw", left: "30vw" } },
-//     { img: "assets/image/photostrip/haujux2.png", pos: { bottom: "9vw", left: "36vw" } }
+//     { img: "assets/image/photostrip/haujux1.webp", pos: { bottom: "4vw", left: "30vw" } },
+//     { img: "assets/image/photostrip/haujux2.webp", pos: { bottom: "9vw", left: "36vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/haujux.jpg",
+//   photoframe: "assets/image/photoframe/haujux.webp",
 //   photoframePos: { bottom: "27vw", right: "16vw" }
 // },
 
 // { 
 //   name: "littl3st4rfish",
-//   ownerImg: "assets/image/owner/littl3st4rfish.png",
-//   pegboardImg: "assets/image/pegboard/littl3st4rfish.png",
+//   ownerImg: "assets/image/owner/littl3st4rfish.webp",
+//   pegboardImg: "assets/image/pegboard/littl3st4rfish.webp",
 //   track: "https://open.spotify.com/embed/track/3iYeXCdD3d0zlex2v0CpVt?utm_source=generator",
 //   headphonePos: { bottom: "1vw", right: "15.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/littl3st4rfish1.png", pos: { bottom: "0vw", left: "29vw" } },
-//     { img: "assets/image/photostrip/littl3st4rfish1.png", pos: { bottom: "6vw", left: "29vw" } },
-//     { img: "assets/image/photostrip/littl3st4rfish2.png", pos: { bottom: "6vw", left: "5vw" } },
-//     { img: "assets/image/photostrip/littl3st4rfish2.png", pos: { bottom: "0vw", left: "5vw" } }
+//     { img: "assets/image/photostrip/littl3st4rfish1.webp", pos: { bottom: "0vw", left: "29vw" } },
+//     { img: "assets/image/photostrip/littl3st4rfish1.webp", pos: { bottom: "6vw", left: "29vw" } },
+//     { img: "assets/image/photostrip/littl3st4rfish2.webp", pos: { bottom: "6vw", left: "5vw" } },
+//     { img: "assets/image/photostrip/littl3st4rfish2.webp", pos: { bottom: "0vw", left: "5vw" } }
 //   ],
 //   photoframes: [
-//     { img: "assets/image/photoframe/littl3st4rfish1.jpg", pos: { bottom: "15vw", right: "34vw" } },
-//     { img: "assets/image/photoframe/littl3st4rfish2.jpg", pos: { bottom: "16vw", right: "9vw" } }
+//     { img: "assets/image/photoframe/littl3st4rfish1.webp", pos: { bottom: "15vw", right: "34vw" } },
+//     { img: "assets/image/photoframe/littl3st4rfish2.webp", pos: { bottom: "16vw", right: "9vw" } }
 //   ]
 // },
 
 // {
 //   name: "l0v3anakin",
-//   ownerImg: "assets/image/owner/l0v3anakin.png",
-//   pegboardImg: "assets/image/pegboard/l0v3anakin.png",
+//   ownerImg: "assets/image/owner/l0v3anakin.webp",
+//   pegboardImg: "assets/image/pegboard/l0v3anakin.webp",
 //   track: "https://open.spotify.com/embed/track/7LbUv7w2z7rEbNqp1uIL9U?utm_source=generator",
 //   headphonePos: { bottom: "25vw", right: "2.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/l0v3anakin1.png", pos: { bottom: "34vw", left: "1vw" } },
-//     { img: "assets/image/photostrip/l0v3anakin1.png", pos: { bottom: "24vw", left: "1vw" } },
-//     { img: "assets/image/photostrip/l0v3anakin2.png", pos: { bottom: "21vw", left: "8vw" } },
-//     { img: "assets/image/photostrip/l0v3anakin2.png", pos: { bottom: "11vw", left: "7vw" } }
+//     { img: "assets/image/photostrip/l0v3anakin1.webp", pos: { bottom: "34vw", left: "1vw" } },
+//     { img: "assets/image/photostrip/l0v3anakin1.webp", pos: { bottom: "24vw", left: "1vw" } },
+//     { img: "assets/image/photostrip/l0v3anakin2.webp", pos: { bottom: "21vw", left: "8vw" } },
+//     { img: "assets/image/photostrip/l0v3anakin2.webp", pos: { bottom: "11vw", left: "7vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/l0v3anakin.jpg",
+//   photoframe: "assets/image/photoframe/l0v3anakin.webp",
 //   photoframePos: { bottom: "0vw", right: "35vw" }
 // },
 
 //  {
 //   name: "cremezayniee",
-//   ownerImg: "assets/image/owner/cremezayniee.png",
-//   pegboardImg: "assets/image/pegboard/cremezayniee.png",
+//   ownerImg: "assets/image/owner/cremezayniee.webp",
+//   pegboardImg: "assets/image/pegboard/cremezayniee.webp",
 //   track: "https://open.spotify.com/embed/track/0eFMbKCRw8KByXyWBw8WO7?utm_source=generator",
 //   headphonePos: { bottom: "0vw", right: "1.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/cremezayniee1.png", pos: { bottom: "5vw", left: "10vw" } },
-//     { img: "assets/image/photostrip/cremezayniee2.png", pos: { bottom: "7vw", left: "17vw" } }
+//     { img: "assets/image/photostrip/cremezayniee1.webp", pos: { bottom: "5vw", left: "10vw" } },
+//     { img: "assets/image/photostrip/cremezayniee2.webp", pos: { bottom: "7vw", left: "17vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/cremezayniee.jpg",
+//   photoframe: "assets/image/photoframe/cremezayniee.webp",
 //   photoframePos: { bottom: "10vw", right: "39vw" }
 // },
 // {
 //   name: "shenliquor",
-//   ownerImg: "assets/image/owner/shenliquor.png",
-//   pegboardImg: "assets/image/pegboard/shenliquor.png",
+//   ownerImg: "assets/image/owner/shenliquor.webp",
+//   pegboardImg: "assets/image/pegboard/shenliquor.webp",
 //   track: "https://open.spotify.com/embed/track/50x1Ic8CaXkYNvjmxe3WXy?utm_source=generator",
 //   headphonePos: { bottom: "2vw", right: "3.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/shenliquor1.png", pos: { bottom: "2vw", left: "9vw" } },
-//     { img: "assets/image/photostrip/shenliquor2.png", pos: { bottom: "7vw", left: "12vw" } }
+//     { img: "assets/image/photostrip/shenliquor1.webp", pos: { bottom: "2vw", left: "9vw" } },
+//     { img: "assets/image/photostrip/shenliquor2.webp", pos: { bottom: "7vw", left: "12vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/shenliquor.jpg",
+//   photoframe: "assets/image/photoframe/shenliquor.webp",
 //   photoframePos: { bottom: "4vw", right: "21vw" }
 // },
 // {
 //   name: "dew_lus",
-//   ownerImg: "assets/image/owner/dew_lus.png",
-//   pegboardImg: "assets/image/pegboard/dew_lus.png",
+//   ownerImg: "assets/image/owner/dew_lus.webp",
+//   pegboardImg: "assets/image/pegboard/dew_lus.webp",
 //   track: "https://open.spotify.com/embed/track/3z8h0TU7ReDPLIbEnYhWZb?utm_source=generator",
 //   headphonePos: { bottom: "5vw", right: "-0.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/dew_lus1.png", pos: { bottom: "2vw", left: "8vw" } },
-//     { img: "assets/image/photostrip/dew_lus2.png", pos: { bottom: "9vw", left: "12vw" } }
+//     { img: "assets/image/photostrip/dew_lus1.webp", pos: { bottom: "2vw", left: "8vw" } },
+//     { img: "assets/image/photostrip/dew_lus2.webp", pos: { bottom: "9vw", left: "12vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/dew_lus.jpg",
+//   photoframe: "assets/image/photoframe/dew_lus.webp",
 //   photoframePos: { bottom: "3vw", right: "17vw" }
 // },
 // {
 //   name: "missapplelle",
-//   ownerImg: "assets/image/owner/missapplelle.png",
-//   pegboardImg: "assets/image/pegboard/missapplelle.png",
+//   ownerImg: "assets/image/owner/missapplelle.webp",
+//   pegboardImg: "assets/image/pegboard/missapplelle.webp",
 //   track: "https://open.spotify.com/embed/track/5ziNnhZ1hK100fIUvkDZUH?utm_source=generator",
 //   headphonePos: { bottom: "20vw", right: "1.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/missapplelle1.png", pos: { bottom: "2vw", left: "18vw" } },
-//     { img: "assets/image/photostrip/missapplelle2.png", pos: { bottom: "6vw", left: "22vw" } }
+//     { img: "assets/image/photostrip/missapplelle1.webp", pos: { bottom: "2vw", left: "18vw" } },
+//     { img: "assets/image/photostrip/missapplelle2.webp", pos: { bottom: "6vw", left: "22vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/missapplelle.jpg",
+//   photoframe: "assets/image/photoframe/missapplelle.webp",
 //   photoframePos: { bottom: "6vw", right: "8vw" }
 // },
 // {
 //   name: "sylus_kittenn",
-//   ownerImg: "assets/image/owner/sylus_kittenn.png",
-//   pegboardImg: "assets/image/pegboard/sylus_kittenn.png",
+//   ownerImg: "assets/image/owner/sylus_kittenn.webp",
+//   pegboardImg: "assets/image/pegboard/sylus_kittenn.webp",
 //   track: "https://open.spotify.com/embed/track/2wQ411UQL2MRsdAgPRUstT?utm_source=generator",
 //   headphonePos: { bottom: "24vw", right: "4.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/sylus_kittenn1.png", pos: { bottom: "11vw", left: "28vw" } },
-//     { img: "assets/image/photostrip/sylus_kittenn2.png", pos: { bottom: "15vw", left: "34vw" } }
+//     { img: "assets/image/photostrip/sylus_kittenn1.webp", pos: { bottom: "11vw", left: "28vw" } },
+//     { img: "assets/image/photostrip/sylus_kittenn2.webp", pos: { bottom: "15vw", left: "34vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/sylus_kittenn.jpg",
+//   photoframe: "assets/image/photoframe/sylus_kittenn.webp",
 //   photoframePos: { bottom: "2vw", right: "10vw" }
 // },
 // {
 //   name: "litheary",
-//   ownerImg: "assets/image/owner/litheary.png",
-//   pegboardImg: "assets/image/pegboard/litheary.png",
+//   ownerImg: "assets/image/owner/litheary.webp",
+//   pegboardImg: "assets/image/pegboard/litheary.webp",
 //   track: "https://open.spotify.com/embed/track/4zRZAmBQP8vhNPf9i9opXt?utm_source=generator",
 //   headphonePos: { bottom: "16vw", right: "-0.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/litheary1.png", pos: { bottom: "7vw", left: "11vw" } },
-//     { img: "assets/image/photostrip/litheary1.png", pos: { bottom: "0vw", left: "11vw" } },
-//     { img: "assets/image/photostrip/litheary2.png", pos: { bottom: "7vw", left: "28vw" } },
-//     { img: "assets/image/photostrip/litheary2.png", pos: { bottom: "0vw", left: "28vw" } }
+//     { img: "assets/image/photostrip/litheary1.webp", pos: { bottom: "7vw", left: "11vw" } },
+//     { img: "assets/image/photostrip/litheary1.webp", pos: { bottom: "0vw", left: "11vw" } },
+//     { img: "assets/image/photostrip/litheary2.webp", pos: { bottom: "7vw", left: "28vw" } },
+//     { img: "assets/image/photostrip/litheary2.webp", pos: { bottom: "0vw", left: "28vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/litheary.jpg",
+//   photoframe: "assets/image/photoframe/litheary.webp",
 //   photoframePos: { bottom: "8vw", right: "20vw" }
 // },
 // {
 //   name: "dqueenegotist",
-//   ownerImg: "assets/image/owner/dqueenegotist.png",
-//   pegboardImg: "assets/image/pegboard/dqueenegotist.png",
+//   ownerImg: "assets/image/owner/dqueenegotist.webp",
+//   pegboardImg: "assets/image/pegboard/dqueenegotist.webp",
 //   track: "https://open.spotify.com/embed/track/7hlXiMxN81uctLsvbtHZ8x?utm_source=generator",
 //   headphonePos: { bottom: "1vw", right: "18.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/dqueenegotist1.png", pos: { bottom: "9vw", left: "25.5vw" } },
-//     { img: "assets/image/photostrip/dqueenegotist1.png", pos: { bottom: "1vw", left: "25.5vw" } },
-//     { img: "assets/image/photostrip/dqueenegotist2.png", pos: { bottom: "36vw", left: "36vw" } },
-//     { img: "assets/image/photostrip/dqueenegotist2.png", pos: { bottom: "27vw", left: "34vw" } }
+//     { img: "assets/image/photostrip/dqueenegotist1.webp", pos: { bottom: "9vw", left: "25.5vw" } },
+//     { img: "assets/image/photostrip/dqueenegotist1.webp", pos: { bottom: "1vw", left: "25.5vw" } },
+//     { img: "assets/image/photostrip/dqueenegotist2.webp", pos: { bottom: "36vw", left: "36vw" } },
+//     { img: "assets/image/photostrip/dqueenegotist2.webp", pos: { bottom: "27vw", left: "34vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/dqueenegotist.jpg",
+//   photoframe: "assets/image/photoframe/dqueenegotist.webp",
 //   photoframePos: { bottom: "34vw", right: "16vw" }
 // },
 // {
 //   name: "allis0n_caleb",
-//   ownerImg: "assets/image/owner/allis0n_caleb.png",
-//   pegboardImg: "assets/image/pegboard/allis0n_caleb.png",
+//   ownerImg: "assets/image/owner/allis0n_caleb.webp",
+//   pegboardImg: "assets/image/pegboard/allis0n_caleb.webp",
 //   track: "https://open.spotify.com/embed/track/6CcJMwBtXByIz4zQLzFkKc?utm_source=generator",
 //   headphonePos: { bottom: "0vw", right: "26.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/allis0n_caleb1.png", pos: { bottom: "20vw", left: "-1vw" } },
-//     { img: "assets/image/photostrip/allis0n_caleb1.png", pos: { bottom: "17vw", left: "-1vw" } }
+//     { img: "assets/image/photostrip/allis0n_caleb1.webp", pos: { bottom: "20vw", left: "-1vw" } },
+//     { img: "assets/image/photostrip/allis0n_caleb1.webp", pos: { bottom: "17vw", left: "-1vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/allis0n_caleb.jpg",
+//   photoframe: "assets/image/photoframe/allis0n_caleb.webp",
 //   photoframePos: { bottom: "37vw", right: "21vw" }
 // },
 // {
 //   name: "galaxyboo_",
-//   ownerImg: "assets/image/owner/galaxyboo_.png",
-//   pegboardImg: "assets/image/pegboard/galaxyboo_.png",
+//   ownerImg: "assets/image/owner/galaxyboo_.webp",
+//   pegboardImg: "assets/image/pegboard/galaxyboo_.webp",
 //   track: "https://open.spotify.com/embed/track/18Ptr7mwqViAKSrUZ0WyHm?utm_source=generator",
 //   headphonePos: { bottom: "27vw", right: "1.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/galaxyboo_1.png", pos: { bottom: "3vw", left: "11vw" } },
-//     { img: "assets/image/photostrip/galaxyboo_2.png", pos: { bottom: "7vw", left: "16vw" } }
+//     { img: "assets/image/photostrip/galaxyboo_1.webp", pos: { bottom: "3vw", left: "11vw" } },
+//     { img: "assets/image/photostrip/galaxyboo_2.webp", pos: { bottom: "7vw", left: "16vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/galaxyboo_.jpg",
+//   photoframe: "assets/image/photoframe/galaxyboo_.webp",
 //   photoframePos: { bottom: "1vw", right: "35vw" }
 // },
 // {
 //   name: "acahthzzn",
-//   ownerImg: "assets/image/owner/acahthzzn.png",
-//   pegboardImg: "assets/image/pegboard/acahthzzn.png",
+//   ownerImg: "assets/image/owner/acahthzzn.webp",
+//   pegboardImg: "assets/image/pegboard/acahthzzn.webp",
 //   track: "https://open.spotify.com/embed/track/2oBMZYteeO8DyXV9gDx6Za?utm_source=generator",
 //   headphonePos: { bottom: "3vw", right: "3.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/acahthzzn1.png", pos: { bottom: "14vw", left: "11vw" } },
-//     { img: "assets/image/photostrip/acahthzzn2.png", pos: { bottom: "18vw", left: "17vw" } }
+//     { img: "assets/image/photostrip/acahthzzn1.webp", pos: { bottom: "14vw", left: "11vw" } },
+//     { img: "assets/image/photostrip/acahthzzn2.webp", pos: { bottom: "18vw", left: "17vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/acahthzzn.jpg",
+//   photoframe: "assets/image/photoframe/acahthzzn.webp",
 //   photoframePos: { bottom: "2vw", right: "38vw" }
 // },
 // {
 //   name: "5y1u541ife",
-//   ownerImg: "assets/image/owner/5y1u541ife.png",
-//   pegboardImg: "assets/image/pegboard/5y1u541ife.png",
+//   ownerImg: "assets/image/owner/5y1u541ife.webp",
+//   pegboardImg: "assets/image/pegboard/5y1u541ife.webp",
 //   track: "https://open.spotify.com/embed/track/3zUxQpCyUrfEjz6Y07yg4b?utm_source=generator",
 //   headphonePos: { bottom: "30vw", right: "19.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/5y1u541ife1.png", pos: { bottom: "14vw", left: "9vw" } },
-//     { img: "assets/image/photostrip/5y1u541ife2.png", pos: { bottom: "18vw", left: "13vw" } }
+//     { img: "assets/image/photostrip/5y1u541ife1.webp", pos: { bottom: "14vw", left: "9vw" } },
+//     { img: "assets/image/photostrip/5y1u541ife2.webp", pos: { bottom: "18vw", left: "13vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/5y1u541ife.jpg",
+//   photoframe: "assets/image/photoframe/5y1u541ife.webp",
 //   photoframePos: { bottom: "36vw", right: "37vw" }
 // },
 // {
 //   name: "sylrafzayxavcal",
-//   ownerImg: "assets/image/owner/sylrafzayxavcal.png",
-//   pegboardImg: "assets/image/pegboard/sylrafzayxavcal.png",
+//   ownerImg: "assets/image/owner/sylrafzayxavcal.webp",
+//   pegboardImg: "assets/image/pegboard/sylrafzayxavcal.webp",
 //   track: "https://open.spotify.com/embed/track/37UCSVSqiPGdR1DijOFyYY?utm_source=generator",
 //   headphonePos: { bottom: "0vw", right: "6.5vw" },
 //   photostrips: [
-//     { img: "assets/image/photostrip/sylrafzayxavcal1.png", pos: { bottom: "17vw", left: "9vw" } },
-//     { img: "assets/image/photostrip/sylrafzayxavcal1.png", pos: { bottom: "11vw", left: "7vw" } },
-//     { img: "assets/image/photostrip/sylrafzayxavcal2.png", pos: { bottom: "18vw", left: "36vw" } },
-//     { img: "assets/image/photostrip/sylrafzayxavcal2.png", pos: { bottom: "10vw", left: "36vw" } }
+//     { img: "assets/image/photostrip/sylrafzayxavcal1.webp", pos: { bottom: "17vw", left: "9vw" } },
+//     { img: "assets/image/photostrip/sylrafzayxavcal1.webp", pos: { bottom: "11vw", left: "7vw" } },
+//     { img: "assets/image/photostrip/sylrafzayxavcal2.webp", pos: { bottom: "18vw", left: "36vw" } },
+//     { img: "assets/image/photostrip/sylrafzayxavcal2.webp", pos: { bottom: "10vw", left: "36vw" } }
 //   ],
-//   photoframe: "assets/image/photoframe/sylrafzayxavcal.jpg",
+//   photoframe: "assets/image/photoframe/sylrafzayxavcal.webp",
 //   photoframePos: { bottom: "15vw", right: "18vw" }
 // },
 
 //   {
 //     name: "fighterpilots",
-//     ownerImg: "assets/image/owner/fighterpilots.png",
-//     pegboardImg: "assets/image/pegboard/fighterpilots.png",
+//     ownerImg: "assets/image/owner/fighterpilots.webp",
+//     pegboardImg: "assets/image/pegboard/fighterpilots.webp",
 //     track: "https://open.spotify.com/embed/track/7k2SCAJzg4FaAN4da2cOxW?utm_source=generator",
 //     headphonePos: { bottom: "21vw", right: "28.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/fighterpilots1.png", pos: { bottom: "12vw", left: "12vw" } },
-//       { img: "assets/image/photostrip/fighterpilots1.png", pos: { bottom: "4vw", left: "12vw" } }
+//       { img: "assets/image/photostrip/fighterpilots1.webp", pos: { bottom: "12vw", left: "12vw" } },
+//       { img: "assets/image/photostrip/fighterpilots1.webp", pos: { bottom: "4vw", left: "12vw" } }
       
 //     ],
-//     photoframe: "assets/image/photoframe/fighterpilots.jpg",
+//     photoframe: "assets/image/photoframe/fighterpilots.webp",
 //     photoframePos: { bottom: "33vw", right: "7vw" }
 //   },
 //   {
 //     name: "rafayelpregnant",
-//     ownerImg: "assets/image/owner/rafayelpregnant.png",
-//     pegboardImg: "assets/image/pegboard/rafayelpregnant.png",
+//     ownerImg: "assets/image/owner/rafayelpregnant.webp",
+//     pegboardImg: "assets/image/pegboard/rafayelpregnant.webp",
 //     track: "https://open.spotify.com/embed/track/6dOtVTDdiauQNBQEDOtlAB?utm_source=generator",
 //     headphonePos: { bottom: "14vw", right: "30.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/rafayelpregnant1.png", pos: { bottom: "2vw", left: "13vw" } },
-//       { img: "assets/image/photostrip/rafayelpregnant2.png", pos: { bottom: "7vw", left: "17vw" } }
+//       { img: "assets/image/photostrip/rafayelpregnant1.webp", pos: { bottom: "2vw", left: "13vw" } },
+//       { img: "assets/image/photostrip/rafayelpregnant2.webp", pos: { bottom: "7vw", left: "17vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/rafayelpregnant.jpg",
+//     photoframe: "assets/image/photoframe/rafayelpregnant.webp",
 //     photoframePos: { bottom: "3vw", right: "16vw" }
 //   },
 //   {
 //     name: "ai00_rin",
-//     ownerImg: "assets/image/owner/ai00_rin.png",
-//     pegboardImg: "assets/image/pegboard/ai00_rin.png",
+//     ownerImg: "assets/image/owner/ai00_rin.webp",
+//     pegboardImg: "assets/image/pegboard/ai00_rin.webp",
 //     track: "https://open.spotify.com/embed/track/4zrKPIygugUDKGFEjVwpSB?utm_source=generator",
 //     headphonePos: { bottom: "0vw", right: "1.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/ai00_rin1.png", pos: { bottom: "2vw", left: "8vw" } },
-//       { img: "assets/image/photostrip/ai00_rin2.png", pos: { bottom: "7vw", left: "13vw" } }
+//       { img: "assets/image/photostrip/ai00_rin1.webp", pos: { bottom: "2vw", left: "8vw" } },
+//       { img: "assets/image/photostrip/ai00_rin2.webp", pos: { bottom: "7vw", left: "13vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/ai00_rin.jpg",
+//     photoframe: "assets/image/photoframe/ai00_rin.webp",
 //     photoframePos: { bottom: "5vw", right: "20vw" }
 //   },
 //   {
 //     name: "applecrow_lover",
-//     ownerImg: "assets/image/owner/applecrow_lover.png",
-//     pegboardImg: "assets/image/pegboard/applecrow_lover.png",
+//     ownerImg: "assets/image/owner/applecrow_lover.webp",
+//     pegboardImg: "assets/image/pegboard/applecrow_lover.webp",
 //     track: "https://open.spotify.com/embed/track/2kpmBZqu52h6uCZXFTIXJK?utm_source=generator",
 //     headphonePos: { bottom: "18vw", right: "1.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/applecrow_lover1.png", pos: { bottom: "15vw", left: "-1vw" } },
-//       { img: "assets/image/photostrip/applecrow_lover2.png", pos: { bottom: "21vw", left: "6vw" } }
+//       { img: "assets/image/photostrip/applecrow_lover1.webp", pos: { bottom: "15vw", left: "-1vw" } },
+//       { img: "assets/image/photostrip/applecrow_lover2.webp", pos: { bottom: "21vw", left: "6vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/applecrow_lover.jpg",
+//     photoframe: "assets/image/photoframe/applecrow_lover.webp",
 //     photoframePos: { bottom: "5vw", right: "36vw" }
 //   },
 //   {
 //     name: "jinshims",
-//     ownerImg: "assets/image/owner/jinshims.png",
-//     pegboardImg: "assets/image/pegboard/jinshims.png",
+//     ownerImg: "assets/image/owner/jinshims.webp",
+//     pegboardImg: "assets/image/pegboard/jinshims.webp",
 //     track: "https://open.spotify.com/embed/track/48vIfHaK7by6x0T6ucpODL?utm_source=generator",
 //     headphonePos: { bottom: "1vw", right: "0.5vw" },
 //     photostrips: [
-//       { img: "assets/image/photostrip/jinshims1.png", pos: { bottom: "16vw", left: "14vw" } },
-//       { img: "assets/image/photostrip/jinshims2.png", pos: { bottom: "22vw", left: "9vw" } }
+//       { img: "assets/image/photostrip/jinshims1.webp", pos: { bottom: "16vw", left: "14vw" } },
+//       { img: "assets/image/photostrip/jinshims2.webp", pos: { bottom: "22vw", left: "9vw" } }
 //     ],
-//     photoframe: "assets/image/photoframe/jinshims.jpg",
+//     photoframe: "assets/image/photoframe/jinshims.webp",
 //     photoframePos: { bottom: "14vw", right: "35vw" }
 //   }
 ];
