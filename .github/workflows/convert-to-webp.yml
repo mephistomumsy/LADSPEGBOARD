@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_PAT }} # use your PAT here
+          token: ${{ secrets.GH_TOKEN }} # use your PAT here
 
       - name: Install WebP tools
         run: |
