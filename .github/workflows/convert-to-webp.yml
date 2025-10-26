@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - 'assets/image/**.png'
+      - 'assets/image/**.jpg'
+      - 'assets/image/**.jpeg'
       - '.github/workflows/convert-images.yml'
 
 jobs:
@@ -23,13 +25,20 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y webp
 
-      - name: Convert PNG to WebP
+      - name: Convert PNG and JPG/JPEG to WebP
         run: |
-          find assets/image -name "*.png" -exec bash -c 'cwebp "$0" -o "${0%.png}.webp"' {} \;
+          # Convert PNG files
+          find assets/image -type f -name "*.png" -exec bash -c 'cwebp "$0" -o "${0%.png}.webp"' {} \;
+
+          # Convert JPG files
+          find assets/image -type f -name "*.jpg" -exec bash -c 'cwebp "$0" -o "${0%.jpg}.webp"' {} \;
+
+          # Convert JPEG files
+          find assets/image -type f -name "*.jpeg" -exec bash -c 'cwebp "$0" -o "${0%.jpeg}.webp"' {} \;
 
       - name: Commit and push WebP files
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
@@ -37,6 +46,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Auto-convert images to WebP"
+            git commit -m "Auto-convert images (PNG + JPG) to WebP"
             git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git main
           fi
