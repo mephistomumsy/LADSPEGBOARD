@@ -1,35 +1,42 @@
-name: Convert PNG to WebP
+name: Convert images to WebP
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'assets/image/**.png'
+      - '.github/workflows/convert-images.yml'
 
 jobs:
   convert:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GH_TOKEN }} # ✅ use your PAT here
+          token: ${{ secrets.GH_PAT }} # use your PAT here
 
-      - name: Set up ImageMagick
-        run: sudo apt-get install -y imagemagick
+      - name: Install WebP tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y webp
 
       - name: Convert PNG to WebP
         run: |
           find assets/image -name "*.png" -exec bash -c 'cwebp "$0" -o "${0%.png}.webp"' {} \;
 
-      - name: Commit and push changes
+      - name: Commit and push WebP files
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }} # ✅ use your PAT here
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add assets/image
-          git diff --cached --quiet || git commit -m "Auto-convert images to WebP"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-convert images to WebP"
+            git push https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git main
+          fi
