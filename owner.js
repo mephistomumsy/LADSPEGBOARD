@@ -2,6 +2,7 @@
 const owners = [
   {
     name: "mephistomum",
+    nickname: "Izzy",
     ownerImg: "assets/image/owner/mephistomum.webp",
     pegboardImg: "assets/image/pegboard/mephistomum.webp",
     track: "https://open.spotify.com/embed/track/48jRAABr5TxjWHvoNWClGG?utm_source=generator",
@@ -15,6 +16,7 @@ const owners = [
   },
   {
     name: "snowfllay",
+    nickname: "Fllay",
     ownerImg: "assets/image/owner/snowfllay.webp",
     pegboardImg: "assets/image/pegboard/snowfllay.webp",
     track: "https://open.spotify.com/embed/track/43mnNatwMMydJ4CxMdQVnJ?utm_source=generator",

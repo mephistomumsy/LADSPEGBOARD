@@ -52,6 +52,7 @@ owners.forEach(o => {
     `;
   }
 
+  // ----- Build section (no .owner-name inside anymore) -----
   section.innerHTML = `
     <div class="owner-img">
       <img src="${o.ownerImg}" alt="${o.name}" loading="lazy" onerror="this.style.display='none'">
@@ -97,8 +98,16 @@ window.addEventListener("load", preloadImages);
 let currentIndex = 0;
 const total = owners.length;
 
+// 🌟 Global owner-name outside carousel
+const nameDisplay = document.getElementById("ownerNameDisplay");
+const updateNameDisplay = () => {
+  const currentOwner = owners[currentIndex];
+  nameDisplay.textContent = currentOwner.nickname || currentOwner.name;
+};
+
 const updateCarousel = () => {
   container.style.transform = `translateX(-${currentIndex * 100}%)`;
+  updateNameDisplay(); // update name whenever carousel moves
 };
 
 document.getElementById("nextBtn").addEventListener("click", () => {
@@ -110,6 +119,9 @@ document.getElementById("prevBtn").addEventListener("click", () => {
   currentIndex = (currentIndex - 1 + total) % total;
   updateCarousel();
 });
+
+// Initialize name display once
+updateNameDisplay();
 
 
 // ----- Spotify Logic -----
@@ -156,12 +168,11 @@ document.addEventListener("click", e => {
   modalContent.innerHTML = ""; // Clear previous
 
   const multiPhotoOwners = [
-  "miwaluvsy", "mephistomum", "snowfllay", "miffymoch", "syreenie", "catsylus",
-"alyaa_ayo", "arcanevix", "snowyplli", "maiappleb", "taeohbeng", "dearlovelily",
-"irnemin", "sylusplume", "ryuno_aika", "xinghuiatus", "haujux", "cremezayniee",
-"shenliquor", "dew_lus", "missapplelle", "galaxyboo_", "acahthzzn", "5y1u541ife",
-"rafayelpregnant", "ai00_rin", "applecrow_lover"
-
+    "miwaluvsy", "mephistomum", "snowfllay", "miffymoch", "syreenie", "catsylus",
+    "alyaa_ayo", "arcanevix", "snowyplli", "maiappleb", "taeohbeng", "dearlovelily",
+    "irnemin", "sylusplume", "ryuno_aika", "xinghuiatus", "haujux", "cremezayniee",
+    "shenliquor", "dew_lus", "missapplelle", "galaxyboo_", "acahthzzn", "5y1u541ife",
+    "rafayelpregnant", "ai00_rin", "applecrow_lover"
   ];
 
   if (clickedType === "strip" && multiPhotoOwners.includes(ownerName)) {

@@ -7,6 +7,9 @@
   <link rel="icon" type="image/png" href="assets/image/icon.webp" />
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Ballet:opsz@16..72&family=Boogaloo&family=Quintessential&family=Rubik+80s+Fade&family=Style+Script&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
   <style>
 body {
   background: url("assets/image/bg.webp") no-repeat center center fixed;
@@ -20,6 +23,12 @@ body {
   overflow-x: hidden;
 }
 
+.style-script-regular {
+  font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* --- Carousel Container --- */
 /* --- Carousel Container --- */
 #carouselWrapper {
@@ -28,12 +37,15 @@ body {
   max-width: 2000px;
   overflow: hidden;
   margin-top: 5rem;
+  /* overflow: visible;  */
 }
 
 #ownersContainer {
   display: flex;
   transition: transform 0.6s ease;
   width: 100%;
+  overflow: visible; 
+  
 }
 
 /* --- Each owner-pegboard pair --- */
@@ -45,6 +57,42 @@ body {
   position: relative;
   overflow: visible; /* ensure behind image isn’t clipped */
 }
+
+.owner-name {
+  position: fixed;        /* stays above everything */
+  bottom: 2vh;            /* default for desktop */
+  left: 7vw;
+  font-family: "Style Script", cursive;
+  font-size: 17.8vw;
+  color: white;
+  text-shadow: 4px 2px 0px rgba(0,0,0,1);
+  letter-spacing: 1px;
+  z-index: 999;
+  pointer-events: none;
+  transition: bottom 0.4s ease;
+}
+
+/* --- Tablet (iPad vertical) --- */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .owner-name {
+    bottom: 51vh;
+  }
+}
+
+/* --- Mobile phones --- */
+@media (max-width: 768px) {
+  .owner-name {
+    bottom: 40vh;
+  }
+}
+
+/* --- Very small phones --- */
+@media (max-width: 480px) {
+  .owner-name {
+    bottom: 63vh;
+  }
+}
+
 
 /* Default: owner in front */
 .owner-img {
@@ -186,6 +234,10 @@ body {
 
 .carousel-btn:hover {
   background: rgba(255,255,255,0.4);
+}
+
+.carouselwrapper {
+   overflow: visible;
 }
 
 #prevBtn { left: 2vw; }
@@ -480,6 +532,9 @@ max-width: 105vw;
   <button id="prevBtn" class="carousel-btn">‹</button>
   <button id="nextBtn" class="carousel-btn">›</button>
 </div>
+
+<!-- 🌟 Owner name (moved outside) -->
+<h1 class="owner-name" id="ownerNameDisplay"></h1>
 
 <!-- 🎵 Spotify Player -->
 <div id="spotifyContainer">
