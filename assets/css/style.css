@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('/assets/font/austrisademo-woqgw.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Optional: make a Tailwind utility */
+.font-austrisa {
+  font-family: 'austrisa';
+}
+
+.ballet-font {
+  font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.neon-text {
+  color: #fffbe8; /* creamy text color */
+  text-shadow: 
+    0 0 5px #fffbe8,
+    0 0 10px #fffdda,
+    0 0 20px #fffdda,
+    0 0 40px #dcf4ff,
+    0 0 80px #f9fdc3,
+    0 0 100px #f9fdc3,
+    0 0 150px #f9fdc3;
+  animation: flicker 2.5s infinite alternate;
+}
+
+@keyframes flicker {
+  0%   { opacity: 1; }
+  45%  { opacity: 0.95; }
+  50%  { opacity: 0.85; }
+  55%  { opacity: 0.95; }
+  100% { opacity: 1; }
+}
+
+
+/* Apply only to the gallery wrapper */
+#albumWrapper {
+  max-height: 80vh;
+  overflow-y: auto;
+
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100,100,100,0.6) transparent;
+
+  /* Force overlay scrollbars on Windows */
+  -ms-overflow-style: none; /* IE/Edge Legacy */
+  scrollbar-gutter: stable both-edges; 
+}
+
+
