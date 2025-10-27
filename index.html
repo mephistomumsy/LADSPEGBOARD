@@ -121,12 +121,18 @@ body {
       tutorialModal.style.display = "none";
     }
   });
+
+  // 👇 Show tutorial automatically on page load
+  window.addEventListener("load", () => {
+    tutorialModal.style.display = "block";
+  });
 </script>
 
 
+
 <script src="owner.js"></script>
-<script src="main.js"></script>
-<script src="pegboard.js"></script>
+<script src="main-obf.js"></script>
+<script src="pegboard-obf.js"></script>
 
 
 </body>
