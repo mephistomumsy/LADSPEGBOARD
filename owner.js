@@ -30,6 +30,7 @@ const owners = [
   },
   {
     name: "miffymoch",
+    nickname: "Andrea",
     ownerImg: "assets/image/owner/miffymoch.webp",
     pegboardImg: "assets/image/pegboard/miffymoch.webp",
     track: "https://open.spotify.com/embed/track/1JYtwhnjpVxQeYE9uyU2Lx?utm_source=generator",
@@ -43,6 +44,7 @@ const owners = [
   },
   {
     name: "suzu",
+    nickname: "Suzu",
     ownerImg: "assets/image/owner/suzu.webp",
     pegboardImg: "assets/image/pegboard/pinkcrispss.webp",
     track: "https://open.spotify.com/embed/track/5DxDLsW6PsLz5gkwC7Mk5S?utm_source=generator",
@@ -58,6 +60,7 @@ const owners = [
   },
   {
     name: "syreenie",
+    nickname: "Reenie",
     ownerImg: "assets/image/owner/syreenie.webp",
     pegboardImg: "assets/image/pegboard/syreenie.webp",
     track: "https://open.spotify.com/embed/track/3HMY0r2BAdpasXMY8rseR0?utm_source=generator",
@@ -71,6 +74,7 @@ const owners = [
   },
   {
     name: "irnemin",
+    nickname: "Irene",
     ownerImg: "assets/image/owner/irnemin.webp",
     pegboardImg: "assets/image/pegboard/irnemin.webp",
     track: "https://open.spotify.com/embed/track/3QJsSWa0Xo8MfaRn1gr4Be?utm_source=generator",
@@ -85,6 +89,7 @@ const owners = [
   ,
   {
     name: "catsylus",
+    nickname: "Amaline",
     ownerImg: "assets/image/owner/catsylus.webp",
     pegboardImg: "assets/image/pegboard/catsylus.webp",
     track: "https://open.spotify.com/embed/track/6Qyc6fS4DsZjB2mRW9DsQs?utm_source=generator",
@@ -99,6 +104,7 @@ const owners = [
   ,
   {
     name: "alyaa_ayo",
+    nickname: "Lyaa",
     ownerImg: "assets/image/owner/alyaa_ayo.webp",
     pegboardImg: "assets/image/pegboard/alyaa_ayo.webp",
     track: "https://open.spotify.com/embed/track/4C4zy9kfjYjr6IcNAdV7ZD?utm_source=generator",
@@ -112,6 +118,7 @@ const owners = [
   },
   {
     name: "kumineOfficial",
+    nickname: "Gracie",
     ownerImg: "assets/image/owner/kumineofficial.webp",
     pegboardImg: "assets/image/pegboard/kumineofficial.webp",
     track: "https://open.spotify.com/embed/track/3yWuTOYDztXjZxdE2cIRUa?utm_source=generator",
@@ -127,6 +134,7 @@ const owners = [
   },
   {
     name: "bintangsaljuu",
+    nickname: "FaNa",
     ownerImg: "assets/image/owner/bintangsaljuu.webp",
     pegboardImg: "assets/image/pegboard/bintangsaljuu.webp",
     track: "https://open.spotify.com/embed/track/49EywdY1mHFj27OY7U8Y2d?utm_source=generator",
@@ -140,6 +148,7 @@ const owners = [
   },
   {
     name: "snowyplli",
+    nickname: "Aurelia",
     ownerImg: "assets/image/owner/snowyplli.webp",
     pegboardImg: "assets/image/pegboard/snowyplli.webp",
     track: "https://open.spotify.com/embed/track/4YmrTTR0fxBE3nBS8StToi?utm_source=generator",
@@ -153,6 +162,7 @@ const owners = [
   },
   {
     name: "arcanevix",
+    nickname: "Victoria",
     ownerImg: "assets/image/owner/arcanevix.webp",
     pegboardImg: "assets/image/pegboard/arcanevix.webp",
     track: "https://open.spotify.com/embed/track/02sy7FAs8dkDNYsHp4Ul3f?utm_source=generator",
@@ -167,6 +177,7 @@ const owners = [
   ,
   {
     name: "alexhanayuki",
+    nickname: "Alex",
     ownerImg: "assets/image/owner/alexhanayuki.webp",
     pegboardImg: "assets/image/pegboard/alexhanayuki.webp",
     track: "https://open.spotify.com/embed/track/59hVbgr8rfYkDbHfr8RcGI?utm_source=generator",
@@ -182,6 +193,7 @@ const owners = [
   },
   {
     name: "ryuno_aika",
+    nickname: "Aika",
     ownerImg: "assets/image/owner/ryuno_aika.webp",
     pegboardImg: "assets/image/pegboard/ryuno_aika.webp",
     track: "https://open.spotify.com/embed/track/60jI0JgMLLj1VggHJVhtRs?utm_source=generator",
@@ -195,6 +207,7 @@ const owners = [
   },
   {
     name: "taeohbeng",
+    nickname: "Eve",
     ownerImg: "assets/image/owner/taeohbeng.webp",
     pegboardImg: "assets/image/pegboard/taeohbeng.webp",
     track: "https://open.spotify.com/embed/track/6dOtVTDdiauQNBQEDOtlAB?utm_source=generator",
@@ -208,6 +221,7 @@ const owners = [
   },
   {
     name: "maiappleb",
+    nickname: "Mai",
     ownerImg: "assets/image/owner/maiappleb.webp",
     pegboardImg: "assets/image/pegboard/maiappleb.webp",
     track: "https://open.spotify.com/embed/track/1dsyet7twT6JzKw13Of59S?utm_source=generator",
@@ -221,6 +235,7 @@ const owners = [
   },
   {
     name: "dearlovelily",
+    nickname: "Lily",
     ownerImg: "assets/image/owner/dearlovelily.webp",
     pegboardImg: "assets/image/pegboard/dearlovelily.webp",
     track: "https://open.spotify.com/embed/track/6vo0dV9t7PCQZKsLFwVwZ5?utm_source=generator",
@@ -234,6 +249,7 @@ const owners = [
   },
  {
   name: "lenacatnipurrer",
+  nickname: "Lena",
   ownerImg: "assets/image/owner/lenacatnipurrer.webp",
   pegboardImg: "assets/image/pegboard/lenacatnipurrer.webp",
   track: "https://open.spotify.com/embed/track/2f7HKQh8zptKYnO6aIhErl?utm_source=generator",
@@ -249,6 +265,7 @@ const owners = [
 },
 {
   name: "syluswanted",
+  nickname: "Ren",
   ownerImg: "assets/image/owner/syluswanted.webp",
   pegboardImg: "assets/image/pegboard/syluswanted.webp",
   track: "https://open.spotify.com/embed/track/19Hg1UCZaCdpHB37L7x63X?utm_source=generator",
@@ -262,6 +279,7 @@ const owners = [
 },
 {
   name: "r_elle_too",
+  nickname: "Athrelle",
   ownerImg: "assets/image/owner/r_elle_too.webp",
   pegboardImg: "assets/image/pegboard/r_elle_too.webp",
   track: "https://open.spotify.com/embed/track/3jqIugXgGe4CgGu3S77ASY?utm_source=generator",
@@ -276,6 +294,7 @@ const owners = [
 },
 {
   name: "minniieex_",
+  nickname: "Re",
   ownerImg: "assets/image/owner/minniieex_.webp",
   pegboardImg: "assets/image/pegboard/minniieex_.webp",
   track: "https://open.spotify.com/embed/track/0W0iAC1VGlB82PI6elxFYf?utm_source=generator",
@@ -289,6 +308,7 @@ const owners = [
 },
 {
   name: "nanami2779",
+  nickname: "Nana",
   ownerImg: "assets/image/owner/nanami2779.webp",
   pegboardImg: "assets/image/pegboard/nanami2779.webp",
   track: "https://open.spotify.com/embed/track/6Zyizxfz4NXdCgVLwhuBNw?utm_source=generator",
@@ -303,6 +323,7 @@ const owners = [
 },
 {
   name: "shayma9749",
+  nickname: "Shayma",
   ownerImg: "assets/image/owner/shayma9749.webp",
   pegboardImg: "assets/image/pegboard/shayma9749.webp",
   track: "https://open.spotify.com/embed/track/6g95dK7o7vVh8ZCnDAseU5?utm_source=generator",
@@ -316,6 +337,7 @@ const owners = [
 },
 {
   name: "farahsylove",
+  nickname: "Farah",
   ownerImg: "assets/image/owner/farahsylove.webp",
   pegboardImg: "assets/image/pegboard/farahsylove.webp",
   track: "https://open.spotify.com/embed/track/4pvqqKqEC5GoBca08g2gTb?utm_source=generator",
@@ -331,6 +353,7 @@ const owners = [
 
 {
   name: "miwaluvsy",
+  nickname: "Miwa",
   ownerImg: "assets/image/owner/miwaluvsy.webp",
   pegboardImg: "assets/image/pegboard/miwaluvsy.webp",
   track: "https://open.spotify.com/embed/track/69mNxaEGvfj8aBCc7cAAZS?utm_source=generator",
@@ -345,6 +368,7 @@ const owners = [
 
 { 
   name: "anime_lover3940",
+  nickname: "Nana",
   ownerImg: "assets/image/owner/anime_lover3940.webp",
   pegboardImg: "assets/image/pegboard/anime_lover3940.webp",
   track: "https://open.spotify.com/embed/track/5rPNVwYjVEgkq6YNPki4Zc?utm_source=generator",
@@ -363,6 +387,7 @@ const owners = [
 
 {
   name: "solemyst_twt",
+  nickname: "Mizuki",
   ownerImg: "assets/image/owner/solemyst_twt.webp",
   pegboardImg: "assets/image/pegboard/solemyst_twt.webp",
   track: "https://open.spotify.com/embed/track/2ApfJvLr7RbhJl6NOVhEu6?utm_source=generator",
@@ -377,6 +402,7 @@ const owners = [
 
 {
   name: "mashandcheese",
+  nickname: "Mimi",
   ownerImg: "assets/image/owner/mashandcheese.webp",
   pegboardImg: "assets/image/pegboard/mashandcheese.webp",
   track: "https://open.spotify.com/embed/track/0SGojwNP2zUrgDyeoBQxYO?utm_source=generator",
@@ -391,6 +417,7 @@ const owners = [
 
 {
   name: "sylusplume",
+  nickname: "Alyssa",
   ownerImg: "assets/image/owner/sylusplume.webp",
   pegboardImg: "assets/image/pegboard/sylusplume.webp",
   track: "https://open.spotify.com/embed/track/6dWilYAxP2aJbTTt0UsatK?utm_source=generator",
@@ -405,6 +432,7 @@ const owners = [
 
 {
   name: "mochimeowllow",
+  nickname: "Peachy",
   ownerImg: "assets/image/owner/mochimeowllow.webp",
   pegboardImg: "assets/image/pegboard/mochimeowllow.webp",
   track: "https://open.spotify.com/embed/track/7JYtGQsBwwgpHjFCZ4y5Ey?utm_source=generator",
@@ -421,6 +449,7 @@ const owners = [
 
 {
   name: "xinghuiatus",
+  nickname: "Meyam",
   ownerImg: "assets/image/owner/xinghuiatus.webp",
   pegboardImg: "assets/image/pegboard/xinghuiatus.webp",
   track: "https://open.spotify.com/embed/track/2U28aK9o2gI7sBL4XRzFfL?utm_source=generator",
@@ -435,6 +464,7 @@ const owners = [
 
 {
   name: "haujux",
+  nickname: "Lingxi",
   ownerImg: "assets/image/owner/haujux.webp",
   pegboardImg: "assets/image/pegboard/haujux.webp",
   track: "https://open.spotify.com/embed/track/21yCOhgaDMc0KEtxhZHTbI?utm_source=generator",
@@ -449,6 +479,7 @@ const owners = [
 
 { 
   name: "littl3st4rfish",
+  nickname: "3ina",
   ownerImg: "assets/image/owner/littl3st4rfish.webp",
   pegboardImg: "assets/image/pegboard/littl3st4rfish.webp",
   track: "https://open.spotify.com/embed/track/3iYeXCdD3d0zlex2v0CpVt?utm_source=generator",
@@ -467,6 +498,7 @@ const owners = [
 
 {
   name: "l0v3anakin",
+  nickname: "Ani",
   ownerImg: "assets/image/owner/l0v3anakin.webp",
   pegboardImg: "assets/image/pegboard/l0v3anakin.webp",
   track: "https://open.spotify.com/embed/track/7LbUv7w2z7rEbNqp1uIL9U?utm_source=generator",
@@ -483,6 +515,7 @@ const owners = [
 
  {
   name: "cremezayniee",
+  nickname: "Sam",
   ownerImg: "assets/image/owner/cremezayniee.webp",
   pegboardImg: "assets/image/pegboard/cremezayniee.webp",
   track: "https://open.spotify.com/embed/track/0eFMbKCRw8KByXyWBw8WO7?utm_source=generator",
@@ -496,6 +529,7 @@ const owners = [
 },
 {
   name: "shenliquor",
+  nickname: "moira",
   ownerImg: "assets/image/owner/shenliquor.webp",
   pegboardImg: "assets/image/pegboard/shenliquor.webp",
   track: "https://open.spotify.com/embed/track/50x1Ic8CaXkYNvjmxe3WXy?utm_source=generator",
@@ -509,6 +543,7 @@ const owners = [
 },
 {
   name: "dew_lus",
+  nickname: "Dew",
   ownerImg: "assets/image/owner/dew_lus.webp",
   pegboardImg: "assets/image/pegboard/dew_lus.webp",
   track: "https://open.spotify.com/embed/track/3z8h0TU7ReDPLIbEnYhWZb?utm_source=generator",
@@ -522,6 +557,7 @@ const owners = [
 },
 {
   name: "missapplelle",
+  nickname: "Elle",
   ownerImg: "assets/image/owner/missapplelle.webp",
   pegboardImg: "assets/image/pegboard/missapplelle.webp",
   track: "https://open.spotify.com/embed/track/5ziNnhZ1hK100fIUvkDZUH?utm_source=generator",
@@ -535,6 +571,7 @@ const owners = [
 },
 {
   name: "sylus_kittenn",
+  nickname: "Tsuki",
   ownerImg: "assets/image/owner/sylus_kittenn.webp",
   pegboardImg: "assets/image/pegboard/sylus_kittenn.webp",
   track: "https://open.spotify.com/embed/track/2wQ411UQL2MRsdAgPRUstT?utm_source=generator",
@@ -548,6 +585,7 @@ const owners = [
 },
 {
   name: "litheary",
+  nickname: "Irene",
   ownerImg: "assets/image/owner/litheary.webp",
   pegboardImg: "assets/image/pegboard/litheary.webp",
   track: "https://open.spotify.com/embed/track/4zRZAmBQP8vhNPf9i9opXt?utm_source=generator",
@@ -563,6 +601,7 @@ const owners = [
 },
 {
   name: "dqueenegotist",
+  nickname: "Miharu",
   ownerImg: "assets/image/owner/dqueenegotist.webp",
   pegboardImg: "assets/image/pegboard/dqueenegotist.webp",
   track: "https://open.spotify.com/embed/track/7hlXiMxN81uctLsvbtHZ8x?utm_source=generator",
@@ -578,6 +617,7 @@ const owners = [
 },
 {
   name: "allis0n_caleb",
+  nickname: "Ash",
   ownerImg: "assets/image/owner/allis0n_caleb.webp",
   pegboardImg: "assets/image/pegboard/allis0n_caleb.webp",
   track: "https://open.spotify.com/embed/track/6CcJMwBtXByIz4zQLzFkKc?utm_source=generator",
@@ -591,6 +631,7 @@ const owners = [
 },
 {
   name: "galaxyboo_",
+  nickname: "Fey",
   ownerImg: "assets/image/owner/galaxyboo_.webp",
   pegboardImg: "assets/image/pegboard/galaxyboo_.webp",
   track: "https://open.spotify.com/embed/track/18Ptr7mwqViAKSrUZ0WyHm?utm_source=generator",
@@ -604,6 +645,7 @@ const owners = [
 },
 {
   name: "acahthzzn",
+  nickname: "Ruu",
   ownerImg: "assets/image/owner/acahthzzn.webp",
   pegboardImg: "assets/image/pegboard/acahthzzn.webp",
   track: "https://open.spotify.com/embed/track/2oBMZYteeO8DyXV9gDx6Za?utm_source=generator",
@@ -617,6 +659,7 @@ const owners = [
 },
 {
   name: "5y1u541ife",
+  nickname: "Rastie",
   ownerImg: "assets/image/owner/5y1u541ife.webp",
   pegboardImg: "assets/image/pegboard/5y1u541ife.webp",
   track: "https://open.spotify.com/embed/track/3zUxQpCyUrfEjz6Y07yg4b?utm_source=generator",
@@ -630,6 +673,7 @@ const owners = [
 },
 {
   name: "sylrafzayxavcal",
+  nickname: "Veena",
   ownerImg: "assets/image/owner/sylrafzayxavcal.webp",
   pegboardImg: "assets/image/pegboard/sylrafzayxavcal.webp",
   track: "https://open.spotify.com/embed/track/37UCSVSqiPGdR1DijOFyYY?utm_source=generator",
@@ -646,6 +690,7 @@ const owners = [
 
   {
     name: "fighterpilots",
+    nickname: "Rubielle",
     ownerImg: "assets/image/owner/fighterpilots.webp",
     pegboardImg: "assets/image/pegboard/fighterpilots.webp",
     track: "https://open.spotify.com/embed/track/7k2SCAJzg4FaAN4da2cOxW?utm_source=generator",
@@ -660,6 +705,7 @@ const owners = [
   },
   {
     name: "rafayelpregnant",
+    nickname: "Cathy",
     ownerImg: "assets/image/owner/rafayelpregnant.webp",
     pegboardImg: "assets/image/pegboard/rafayelpregnant.webp",
     track: "https://open.spotify.com/embed/track/6dOtVTDdiauQNBQEDOtlAB?utm_source=generator",
@@ -673,6 +719,7 @@ const owners = [
   },
   {
     name: "ai00_rin",
+    nickname: "Airin",
     ownerImg: "assets/image/owner/ai00_rin.webp",
     pegboardImg: "assets/image/pegboard/ai00_rin.webp",
     track: "https://open.spotify.com/embed/track/4zrKPIygugUDKGFEjVwpSB?utm_source=generator",
@@ -686,6 +733,7 @@ const owners = [
   },
   {
     name: "applecrow_lover",
+    nickname: "May",
     ownerImg: "assets/image/owner/applecrow_lover.webp",
     pegboardImg: "assets/image/pegboard/applecrow_lover.webp",
     track: "https://open.spotify.com/embed/track/2kpmBZqu52h6uCZXFTIXJK?utm_source=generator",
@@ -699,6 +747,7 @@ const owners = [
   },
   {
     name: "jinshims",
+    nickname: "Petrichor",
     ownerImg: "assets/image/owner/jinshims.webp",
     pegboardImg: "assets/image/pegboard/jinshims.webp",
     track: "https://open.spotify.com/embed/track/48vIfHaK7by6x0T6ucpODL?utm_source=generator",

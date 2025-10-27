@@ -168,11 +168,11 @@ document.addEventListener("click", e => {
   modalContent.innerHTML = ""; // Clear previous
 
   const multiPhotoOwners = [
-    "miwaluvsy", "mephistomum", "snowfllay", "miffymoch", "syreenie", "catsylus",
+    "miwaluvsy", "mephistomum", "snowfllay","miffymoch", "syreenie", "catsylus",
     "alyaa_ayo", "arcanevix", "snowyplli", "maiappleb", "taeohbeng", "dearlovelily",
     "irnemin", "sylusplume", "ryuno_aika", "xinghuiatus", "haujux", "cremezayniee",
     "shenliquor", "dew_lus", "missapplelle", "galaxyboo_", "acahthzzn", "5y1u541ife",
-    "rafayelpregnant", "ai00_rin", "applecrow_lover"
+    "rafayelpregnant", "ai00_rin", "applecrow_lover","jinshims"
   ];
 
   if (clickedType === "strip" && multiPhotoOwners.includes(ownerName)) {

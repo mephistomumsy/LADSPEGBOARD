@@ -63,11 +63,11 @@ body {
   bottom: 2vh;            /* default for desktop */
   left: 7vw;
   font-family: "Style Script", cursive;
-  font-size: 17.8vw;
+  font-size: 12.8vw;
   color: white;
   text-shadow: 4px 2px 0px rgba(0,0,0,1);
   letter-spacing: 1px;
-  z-index: 999;
+  z-index: 9;
   pointer-events: none;
   transition: bottom 0.4s ease;
 }
@@ -75,21 +75,35 @@ body {
 /* --- Tablet (iPad vertical) --- */
 @media (max-width: 1024px) and (orientation: portrait) {
   .owner-name {
-    bottom: 51vh;
+    bottom: 57vh;
   }
 }
 
-/* --- Mobile phones --- */
-@media (max-width: 768px) {
+@media (max-width: 1180px) and (orientation: landscape) {
   .owner-name {
-    bottom: 40vh;
+    bottom: 17vh;
+  }
+}
+
+@media (max-width: 940px) and (orientation: landscape) {
+  .owner-name {
+    bottom: -2vh;
+  }
+}
+
+
+/* --- Mobile phones --- */
+@media (max-width: 844px) and (orientation: landscape){
+
+  .owner-name {
+    bottom: -1vh;
   }
 }
 
 /* --- Very small phones --- */
 @media (max-width: 480px) {
   .owner-name {
-    bottom: 63vh;
+    bottom: 65vh;
   }
 }
 
@@ -425,14 +439,15 @@ max-width: 105vw;
 
 #showAllPegboards {
   position: fixed;           /* ensure it stays anchored on screen */
-  top: calc(1rem + 2.5rem);  /* just below back button */
+  top: calc(1rem + 0rem);  /* just below back button */
   left: 0.5rem;              /* align with back button */
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
-  z-index: 100;
+  z-index: 90;
 }
+
 
 
 #showAllPegboards img {
@@ -441,6 +456,8 @@ max-width: 105vw;
   height: 60px;  /* default height */
 }
 
+
+
 @media (min-width: 640px) {
   #showAllPegboards img {
     width: 150px;  /* bigger on larger screens */
@@ -448,12 +465,78 @@ max-width: 105vw;
   }
 }
 
+@media (min-width: 640px)  and (orientation: landscape) {
+  #showAllPegboards img {
+    width: 250px;  /* bigger on larger screens */
+    height: 250px;
+  }
+}
+
+@media (min-width: 840px) {
+  #showAllPegboards img {
+    width: 150px;  /* bigger on larger screens */
+    height: 150px;
+  }
+}
+
+@media (min-width: 1000px)  and (orientation: landscape) {
+  #showAllPegboards img {
+    width: 250px;  /* bigger on larger screens */
+    height: 250px;
+  }
+}
+
+@media (min-width: 840px)  and (orientation: landscape) {
+  #showAllPegboards img {
+    width: 150px;  /* bigger on larger screens */
+    height: 150px;
+  }
+}
+
+@media (min-width: 820px)  and (orientation: portrait) {
+  #showAllPegboards img {
+    width: 150px;  /* bigger on larger screens */
+    height: 150px;
+  }
+}
+
+@media (min-width: 350px)  and (orientation: portrait) {
+  #showAllPegboards img {
+    width: 80px;  /* bigger on larger screens */
+    height: 80px;
+  }
+}
+
+
 @media (min-width: 1200px) {
   #showAllPegboards img {
     width: 250px;  /* bigger on larger screens */
     height: 250px;
   }
 }
+
+.tutorial-modal-content ul {
+  list-style: none; /* remove default bullets */
+  padding-left: 0;
+}
+
+.tutorial-modal-content ul li {
+  position: relative;
+  padding-left: 1.5em; /* space for the heart */
+  margin-bottom: 0.6em;
+  color: white; /* make text white */
+}
+
+.tutorial-modal-content ul li::before {
+  content: "♡"; /* or use "♥" for filled heart */
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.1em;
+  line-height: 1;
+}
+
 
 
 
@@ -493,30 +576,86 @@ max-width: 105vw;
 }
 
 
+
+/* --- Tutorial Button --- */
+#tutorialBtn {
+  position: fixed;
+  top: calc(1rem + 2.5rem + 2.9rem); /* a few gaps below the catalogue button */
+  left: 1.2rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 91;
+}
+
+#tutorialBtn img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 640px) {
+  #tutorialBtn img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #tutorialBtn {
+          top: calc(1rem + 2.5rem + 5rem);
+        left: 2.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #tutorialBtn img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #tutorialBtn {
+            top: calc(1rem + 2.5rem + 12rem);
+        left: 4.5rem;
+  }
+}
+
+/* --- Modal Styling --- */
+.tutorial-modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: auto;
+}
+
+.tutorial-modal-content {
+  background: #000000;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 500px;
+  width: 85%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.tutorial-close {
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+
   </style>
 </head>
 
 <body>
 
-
-<!-- 🌀 Loading Screen -->
-<!-- <div id="loadingScreen">
-  <div class="loader"></div>
-  <p>Loading, please wait...</p>
-</div> -->
-
-
-<!-- 🔙 Back Button -->
-<!-- 🔙 Back Button -->
-<!-- <a href="https://mephistomum.github.io/mephistomum-profile/"
-   class="fixed top-4 left-4 z-50 
-          bg-white/20 text-white font-semibold 
-          px-3 py-1.5 sm:px-4 sm:py-2 
-          rounded-xl backdrop-blur-md 
-          hover:bg-white/40 transition 
-          text-[13px] sm:text-[15px] md:text-[17px]">
-  ←
-</a> -->
 
 <!-- Show All Pegboards Button -->
 <!-- Catalogue Button -->
@@ -524,6 +663,32 @@ max-width: 105vw;
   <img src="assets/image/catalogue.webp" alt="Catalogue" class="w-12 h-12 sm:w-14 sm:h-14" loading="lazy">
 </button>
 
+
+<!-- Tutorial Button -->
+<button id="tutorialBtn" class="fixed z-40">
+  <img src="assets/image/tutorial.webp" alt="Tutorial" class="w-10 h-10 sm:w-12 sm:h-12" loading="lazy">
+</button>
+
+<!-- Tutorial Modal -->
+<div id="tutorialModal" class="tutorial-modal">
+  <div class="tutorial-modal-content">
+    <span id="closeTutorial" class="tutorial-close">&times;</span>
+    <h2>IZZY'S PEGBOARD PROJECT</h2>
+    <p style="margin-bottom: 1em;">
+  Welcome! Here’s a short guide on how to explore the pegboards:
+</p>
+
+    <ul>
+      <li>Use the page on <strong>Landscape Mode</strong>.</li>
+      <li>Click the <strong>Catalogue</strong> button to view all pegboards.</li>
+      <li>Select a pegboard to see its owner details and playlist.</li>
+      <li>Use the <strong>left/right</strong> arrows to switch between owners.</li>
+      <li>Click/tap <strong>photoframe and photostrip</strong> for full view.</li>
+      <li>Click/tap <strong>headphones</strong> to play the owner's fav song.</li>
+      <li>U can <strong>minimize</strong> the spotify player.</li>
+    </ul>
+  </div>
+</div>
 
 
 <!-- 🖼️ Carousel -->
@@ -558,13 +723,26 @@ max-width: 105vw;
   <div id="pegboardGrid" class="pegboard-grid"></div>
 </div>
 
-<!-- <script>
-window.addEventListener("load", () => {
-  const loader = document.getElementById("loadingScreen");
-  setTimeout(() => loader.classList.add("hidden"), 600); // fade-out effect
-  setTimeout(() => loader.remove(), 1200);
-});
-</script> -->
+<script>
+  const tutorialBtn = document.getElementById("tutorialBtn");
+  const tutorialModal = document.getElementById("tutorialModal");
+  const closeTutorial = document.getElementById("closeTutorial");
+
+  tutorialBtn.addEventListener("click", () => {
+    tutorialModal.style.display = "block";
+  });
+
+  closeTutorial.addEventListener("click", () => {
+    tutorialModal.style.display = "none";
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target === tutorialModal) {
+      tutorialModal.style.display = "none";
+    }
+  });
+</script>
+
 
 <script src="owner.js"></script>
 <script src="main.js"></script>
