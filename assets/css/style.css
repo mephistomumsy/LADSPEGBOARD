@@ -55,3 +55,624 @@
 }
 
 
+/* --- Carousel Container --- */
+/* --- Carousel Container --- */
+#carouselWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 2000px;
+  overflow: hidden;
+  margin-top: 5rem;
+  /* overflow: visible;  */
+}
+
+#ownersContainer {
+  display: flex;
+  transition: transform 0.6s ease;
+  width: 100%;
+  overflow: visible; 
+  
+}
+
+/* --- Each owner-pegboard pair --- */
+.owner-section {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: visible; /* ensure behind image isn’t clipped */
+}
+
+.owner-name {
+  position: fixed;        /* stays above everything */
+  bottom: 2vh;            /* default for desktop */
+  left: 7vw;
+  font-family: "Style Script", cursive;
+  font-size: 12.8vw;
+  color: white;
+  text-shadow: 4px 2px 0px rgba(0,0,0,1);
+  letter-spacing: 1px;
+  z-index: 9;
+  pointer-events: none;
+  transition: bottom 0.4s ease;
+}
+
+/* --- Tablet (iPad vertical) --- */
+@media (max-width: 1024px) and (orientation: portrait) {
+  .owner-name {
+    bottom: 57vh;
+  }
+}
+
+@media (max-width: 1180px) and (orientation: landscape) {
+  .owner-name {
+    bottom: 17vh;
+  }
+}
+
+@media (max-width: 940px) and (orientation: landscape) {
+  .owner-name {
+    bottom: -2vh;
+  }
+}
+
+
+/* --- Mobile phones --- */
+@media (max-width: 844px) and (orientation: landscape){
+
+  .owner-name {
+    bottom: -1vh;
+  }
+}
+
+/* --- Very small phones --- */
+@media (max-width: 480px) {
+  .owner-name {
+    bottom: 65vh;
+  }
+}
+
+
+/* Default: owner in front */
+.owner-img {
+  position: relative;
+  z-index: 5;
+}
+
+.owner-img img {
+  max-width: 38vw;
+  border-radius: 1rem;
+  transform: translateX(2vw);
+  display: block;
+}
+
+/* --- Only for owners behind pegboard --- */
+.behind-pegboard .owner-img {
+  position: absolute;
+  inset: 0; /* fill the section */
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; /* behind pegboard */
+  pointer-events: none; /* avoid blocking pegboard buttons */
+}
+
+.behind-pegboard .owner-img img {
+  max-width: 38vw;
+  border-radius: 1rem;
+  transform: translateX(2vw);
+  opacity: 0.95; /* optional: subtle depth effect */
+}
+
+/* --- Pegboard wrapper --- */
+.pegboard-wrapper {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+.pegboard-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -1.5vw;
+  left: -3.3vw;
+  right: 0.5vw;
+  bottom: -1.5vw;
+  background: white;
+  border-radius: 3vw;
+  z-index: -2;
+}
+
+.pegboard {
+  max-width: 45vw;
+  border-radius: 8px;
+  object-fit: contain;
+  display: block;
+  transform: translateX(-2vw);
+}
+
+
+/* --- Headphone / Photo Buttons --- */
+.playSpotify
+{
+  position: absolute;
+  width: 18vw;
+  height: 16vw;
+  max-width: 400px;
+  max-height: 400px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 20;
+  transition: background 0.3s ease;
+}
+
+.viewPhoto {
+  position: absolute;
+  width: 6vw;
+  height: 10vw;
+  max-width: 110px;
+  max-height: 110px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 20;
+  transition: background 0.3s ease;
+}
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+  .viewPhoto {
+    width: 14vw;
+    height: 14vw;
+    max-width: 70px;
+    max-height: 70px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .viewPhoto {
+    width: 18vw;
+    height: 18vw;
+    max-width: 30px;
+    max-height: 30px;
+  }
+}
+
+
+.playSpotify {
+  background-color: none;
+}
+.playSpotify:hover {
+  background-color: none;
+}
+
+.viewPhoto {
+  background-color: none;
+}
+.viewPhoto:hover {
+  background-color: none;
+}
+
+/* --- Navigation Buttons --- */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  z-index: 30;
+}
+
+.carousel-btn:hover {
+  background: rgba(255,255,255,0.4);
+}
+
+.carouselwrapper {
+   overflow: visible;
+}
+
+#prevBtn { left: 2vw; }
+#nextBtn { right: 2vw; }
+
+/* --- Spotify Player --- */
+#spotifyContainer {
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  z-index: 80;
+  transition: all 0.4s ease;
+}
+
+#spotifyPlayer {
+  border-radius: 12px;
+  width: 350px;
+  height: 80px;
+  display: block;
+  transition: all 0.4s ease;
+}
+
+#togglePlayer {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.25);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#togglePlayer:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+#spotifyContainer.minimized {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: none;
+}
+
+#spotifyContainer.minimized #spotifyPlayer {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#spotifyContainer.minimized #togglePlayer {
+  top: 20px;
+  right: 20px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+/* --- Photo Modal --- */
+#photoModal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.4s ease;
+}
+
+/* Each image in modal */
+#photoModal img {
+  max-width: 45vw;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 10px;
+  animation: zoomIn 0.4s ease;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+}
+
+#closeModal {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; } to { opacity: 1; }
+}
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; } 
+  to { transform: scale(1); opacity: 1; }
+}
+
+
+/* Container inside modal */
+.multi-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7vw;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  max-height: 100%;
+  overflow-y: auto;
+  border-radius: 10px;
+   overflow: visible; 
+
+}
+
+
+
+/* Stack vertically on narrow screens */
+@media (max-width: 768px) {
+  .multi-photo-container {
+    gap: 4vw;
+max-width: 105vw;
+  }
+
+#photoModal img {
+
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
+
+}
+
+
+
+/* PEGBOARD MENU */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.pegboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.pegboard-grid-item {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.pegboard-grid-item img {
+  width: 100%;
+  border: 3px solid white;
+  border-radius: 12px;
+}
+
+.pegboard-grid-item span {
+  display: block;
+  margin-top: 0.5rem;
+  color: white;
+  font-size: 0.9rem;
+}
+
+#showAllPegboards {
+  position: fixed;           /* ensure it stays anchored on screen */
+  top: calc(1rem + 0rem);  /* just below back button */
+  left: 0.5rem;              /* align with back button */
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 90;
+}
+
+
+
+#showAllPegboards img {
+  display: block;
+  width: 60px;   /* default width */
+  height: 60px;  /* default height */
+}
+
+
+
+@media (min-width: 640px) {
+  #showAllPegboards img {
+    width: 150px;  /* bigger on larger screens */
+    height: 150px;
+  }
+}
+
+@media (min-width: 640px)  and (orientation: landscape) {
+  #showAllPegboards img {
+    width: 150px;  /* bigger on larger screens */
+    height: 150px;
+  }
+}
+
+@media (min-width: 840px) {
+  #showAllPegboards img {
+    width: 150px;  /* bigger on larger screens */
+    height: 150px;
+  }
+}
+
+
+@media (min-width: 1000px)  and (orientation: landscape) {
+  #showAllPegboards img {
+    width: 250px;  /* bigger on larger screens */
+    height: 250px;
+  }
+}
+
+@media (min-width: 840px)  and (orientation: landscape) {
+  #showAllPegboards img {
+    width: 150px;  /* bigger on larger screens */
+    height: 150px;
+  }
+}
+
+@media (min-width: 820px)  and (orientation: portrait) {
+  #showAllPegboards img {
+    width: 150px;  /* bigger on larger screens */
+    height: 150px;
+  }
+}
+
+@media (min-width: 350px)  and (orientation: portrait) {
+  #showAllPegboards img {
+    width: 80px;  /* bigger on larger screens */
+    height: 80px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #showAllPegboards img {
+    width: 250px;  /* bigger on larger screens */
+    height: 250px;
+  }
+}
+
+.tutorial-modal-content ul {
+  list-style: none; /* remove default bullets */
+  padding-left: 0;
+}
+
+.tutorial-modal-content ul li {
+  position: relative;
+  padding-left: 1.5em; /* space for the heart */
+  margin-bottom: 0.6em;
+  color: white; /* make text white */
+}
+
+.tutorial-modal-content ul li::before {
+  content: "♡"; /* or use "♥" for filled heart */
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.1em;
+  line-height: 1;
+}
+
+
+
+
+
+/* 🔄 Loading Screen Styles */
+#loadingScreen {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-family: 'Poppins', sans-serif;
+  transition: opacity 0.6s ease;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgba(255,255,255,0.2);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+#loadingScreen.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+
+/* --- Tutorial Button --- */
+#tutorialBtn {
+  position: fixed;
+  top: calc(1rem + 2.5rem + 2.9rem); /* a few gaps below the catalogue button */
+  left: 1.2rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 91;
+}
+
+#tutorialBtn img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 640px) {
+  #tutorialBtn img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #tutorialBtn {
+          top: calc(1rem + 2.5rem + 5rem);
+        left: 2.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #tutorialBtn img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #tutorialBtn {
+            top: calc(1rem + 2.5rem + 12rem);
+        left: 4.5rem;
+  }
+}
+
+/* --- Modal Styling --- */
+.tutorial-modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: auto;
+}
+
+.tutorial-modal-content {
+  background: #000000;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 500px;
+  width: 85%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.tutorial-close {
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
