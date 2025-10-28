@@ -252,7 +252,7 @@ const owners = [
   nickname: "Lena",
   ownerImg: "assets/image/owner/lenacatnipurrer.webp",
   pegboardImg: "assets/image/pegboard/lenacatnipurrer.webp",
-  track: "https://open.spotify.com/embed/track/2f7HKQh8zptKYnO6aIhErl?utm_source=generator",
+  track: "https://open.spotify.com/embed/track/0UHB9METy4VCXNgkcGqHqS?utm_source=generator",
   headphonePos: { bottom: "26vw", right: "0.5vw" },
   photostrips: [
     { img: "assets/image/photostrip/lenacatnipurrer2.webp", pos: { bottom: "17vw", left: "35.5vw" } },
